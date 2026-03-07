@@ -23,7 +23,6 @@ import numpy as np
 from pathlib import Path
 from datetime import date
 from flask import Flask, request, jsonify, send_file
-from flask_cors import CORS
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 
@@ -40,7 +39,23 @@ MODELS_DIR   = Path("models")
 DATA_FILE    = "anime_data.json"
 
 app = Flask(__name__, static_folder=".")
-CORS(app)
+
+@app.after_request
+def add_cors(response):
+    response.headers["Access-Control-Allow-Origin"]  = "*"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type,Authorization"
+    response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+    return response
+
+@app.route("/", methods=["OPTIONS"])
+@app.route("/<path:path>", methods=["OPTIONS"])
+def options_handler(path=""):
+    from flask import Response
+    r = Response()
+    r.headers["Access-Control-Allow-Origin"]  = "*"
+    r.headers["Access-Control-Allow-Headers"] = "Content-Type,Authorization"
+    r.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+    return r, 204
 
 
 # ─────────────────────────────────────────────────────────
