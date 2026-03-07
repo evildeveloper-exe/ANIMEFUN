@@ -1415,6 +1415,15 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
 <script>
 'use strict';
 // ============================================================
+// API CONFIGURATION
+// Auto-detects Railway backend URL vs local dev
+// Set RAILWAY_URL below after you deploy to Railway
+// ============================================================
+const RAILWAY_URL = 'https://animefun-production.up.railway.app';
+const API_BASE = RAILWAY_URL || (window.location.hostname === 'localhost' ? 'http://localhost:8080' : '');
+
+
+// ============================================================
 // STATE
 // ============================================================
 const State = {
@@ -1455,7 +1464,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadData() {
   try {
-    const r = await fetch('/anime_data.json');
+    const r = await fetch(API_BASE + '/anime_data.json');
     const d = await r.json();
     State.animeData = d.anime || d;
     populateFilterOptions();
@@ -2311,9 +2320,9 @@ async function sendChatMessage() {
   input.value = '';
   const loadingEl = appendChatMsg('bot', '<div class="chat-loading"><span></span><span></span><span></span></div>');
   try {
-    const r = await fetch('/api/chat', {
+    const r = await fetch(API_BASE + '/api/chat', {
       method: 'POST',
-      headers: { 'Content-Type':'application/json' },
+      headers: { 'Content-Type':'text/plain' },
       body: JSON.stringify({ message: text, session: CHAT_SESSION })
     });
     if (!r.ok) throw new Error('Server error');
@@ -2328,7 +2337,7 @@ async function sendChatMessage() {
 
 async function clearChatHistory() {
   try {
-    await fetch('/api/chat/clear', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({session: CHAT_SESSION}) });
+    await fetch(API_BASE + '/api/chat/clear', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({session: CHAT_SESSION}) });
   } catch(e) {}
   document.getElementById('chatMessages').innerHTML = `
     <div class="chat-msg bot">
