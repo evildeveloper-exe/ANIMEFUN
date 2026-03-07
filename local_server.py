@@ -23,6 +23,7 @@ import numpy as np
 from pathlib import Path
 from datetime import date
 from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 
@@ -39,6 +40,7 @@ MODELS_DIR   = Path("models")
 DATA_FILE    = "anime_data.json"
 
 app = Flask(__name__, static_folder=".")
+CORS(app)
 
 
 # ─────────────────────────────────────────────────────────
@@ -84,8 +86,22 @@ try:
     print(f"[SERVER] ✓  {len(ANIME)} anime · {FEAT_MAT.shape[1]} features")
 except FileNotFoundError as e:
     print(f"[ERROR] {e}")
-    print("[ERROR] Run  python model_trainer.py  first!")
-    raise SystemExit(1)
+    print("[AUTO-TRAIN] Models not found — running model_trainer.py now...")
+    import subprocess, sys
+    result = subprocess.run([sys.executable, "model_trainer.py"], check=True)
+    print("[AUTO-TRAIN] Training complete — reloading models...")
+    ANIME       = load("anime_list")
+    FEAT_MAT    = load("feat_matrix")
+    ALL_GENRES  = load("all_genres")
+    ALL_MOODS   = load("all_moods")
+    TFIDF_VEC   = load("tfidf_vec")
+    TFIDF_MAT   = load("tfidf_matrix")
+    KNN         = load("knn")
+    LATENT_MAT  = load("latent_matrix")
+    QUIZ_CLF    = load("quiz_clf")
+    COLLAB      = load("collab")
+    TOP_SIMILAR = load("top_similar")
+    HYBRID_MAT  = load("hybrid_matrix")
 
 if GROQ_API_KEY:
     print(f"[SERVER] ✓  Groq chatbot → {GROQ_MODEL}")
