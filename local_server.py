@@ -103,7 +103,7 @@ except FileNotFoundError as e:
     print(f"[ERROR] {e}")
     print("[AUTO-TRAIN] Models not found — running model_trainer.py now...")
     import subprocess, sys
-    result = subprocess.run([sys.executable, "model_trainer.py"], check=True)
+    subprocess.run([sys.executable, "model_trainer.py"], check=True)
     print("[AUTO-TRAIN] Training complete — reloading models...")
     ANIME       = load("anime_list")
     FEAT_MAT    = load("feat_matrix")
