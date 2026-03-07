@@ -445,12 +445,10 @@ def local_nlp(message: str) -> str:
 
 @app.route("/")
 @app.route("/index.html")
-@app.route("/AnimeSensei.html")
 def serve_frontend():
-    for name in ["AnimeSensei.html", "index.html"]:
-        if Path(name).exists():
-            return send_file(name)
-    return "Place AnimeSensei.html in the same folder.", 404
+    if Path("index.html").exists():
+        return send_file("index.html")
+    return "Place index.html in the same folder.", 404
 
 
 @app.route("/anime_data.json")
