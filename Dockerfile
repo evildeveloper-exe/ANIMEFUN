@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY anime_data.json .
 COPY model_trainer.py .
 COPY local_server.py .
-COPY AnimeSensei.html .
+COPY index.html .
 
 EXPOSE 8080
 
