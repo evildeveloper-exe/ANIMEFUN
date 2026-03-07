@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.11-slim
+FROM python:3.11-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
     && rm -rf /var/lib/apt/lists/*
@@ -15,5 +15,4 @@ COPY AnimeSensei.html .
 
 EXPOSE 8080
 
-# --timeout 300 gives the auto-trainer 5 minutes to complete on first boot
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "1", "--timeout", "300", "local_server:app"]
+CMD ["sh", "-c", "python model_trainer.py && gunicorn --bind 0.0.0.0:$PORT --workers 1 --timeout 300 local_server:app"]
