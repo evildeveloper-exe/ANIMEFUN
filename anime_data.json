@@ -1,0 +1,1989 @@
+{
+  "version": "2.0",
+  "last_updated": "2025-03",
+  "anime": [
+    {
+      "id": 1,
+      "title": "Attack on Titan",
+      "title_jp": "Shingeki no Kyojin",
+      "poster": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+      "rating": 9.1,
+      "genres": [
+        "Action",
+        "Dark Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 87,
+      "year": 2013,
+      "status": "Completed",
+      "studio": "Wit Studio / MAPPA",
+      "synopsis": "Humanity cowers behind three massive walls — Maria, Rose, and Sina — the last defense against the Titans, colossal humanoid monsters that devour people with no apparent motive. When the outermost wall is breached by a colossal Titan and a family is torn apart, young Eren Yeager vows to eliminate every Titan from the earth. He enlists in the Survey Corps alongside his adoptive sister Mikasa and childhood friend Armin, and the trio plunge into a war that is far older and more complex than they imagined. What begins as a survival story evolves into a sweeping political thriller full of moral ambiguity, shocking revelations, and philosophical questions about freedom, war, and the cycle of hatred. Attack on Titan is a masterpiece of sustained tension, layered storytelling, and character development that earns every twist it delivers.",
+      "trailer_url": "https://www.youtube.com/watch?v=MGRm4IzK1SQ",
+      "trailer_id": "MGRm4IzK1SQ",
+      "popularity": 98,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Starts deliberate and world-building heavy, accelerates massively after episode 5. Season 2 onward is relentless.",
+      "tags": [
+        "post-apocalyptic",
+        "military",
+        "survival",
+        "mystery",
+        "revolution"
+      ],
+      "similar_to": [
+        2,
+        15,
+        22,
+        30
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "title_jp": "Hagane no Renkinjutsushi: Brotherhood",
+      "poster": "https://cdn.myanimelist.net/images/anime/1223/96541l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1223/96541l.jpg",
+      "rating": 9.2,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Drama"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 64,
+      "year": 2009,
+      "status": "Completed",
+      "studio": "Bones",
+      "synopsis": "Two brothers — Edward and Alphonse Elric — paid the ultimate price trying to resurrect their dead mother using the forbidden art of human transmutation. Ed lost his arm and leg; Al lost his entire body and now exists as a soul bound to a suit of armor. Together they pursue the legendary Philosopher's Stone, believed to restore what they've lost. Their quest pulls them into a grand conspiracy involving the military, a shadowy entity called Father, and seven Homunculi embodying the seven deadly sins. FMA: Brotherhood is the gold standard of shonen anime — it delivers thrilling action, gut-wrenching emotional moments, a diverse and loveable cast, and a satisfying conclusion that ties every thread together perfectly. The world-building is meticulous, the alchemy system is logical, and the themes of sacrifice, ambition, and brotherhood run deep.",
+      "trailer_url": "https://www.youtube.com/watch?v=--IcmZkvL0Q",
+      "trailer_id": "--IcmZkvL0Q",
+      "popularity": 99,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Near-perfect pacing throughout. First 10 eps rush through the 2003 adaptation's content, then finds its own steady rhythm. No filler at all.",
+      "tags": [
+        "alchemy",
+        "brotherhood",
+        "adventure",
+        "philosophical",
+        "military"
+      ],
+      "similar_to": [
+        1,
+        10,
+        15,
+        25
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Death Note",
+      "title_jp": "Desu Nōto",
+      "poster": "https://cdn.myanimelist.net/images/anime/9/9453l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/9/9453l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Psychological",
+        "Thriller",
+        "Mystery",
+        "Supernatural"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 37,
+      "year": 2006,
+      "status": "Completed",
+      "studio": "Madhouse",
+      "synopsis": "Light Yagami is a genius high school student bored with a world he sees as rotten with criminals who escape justice. When a supernatural notebook falls from the sky — the Death Note — he discovers he can kill anyone simply by writing their name while picturing their face. Light becomes the self-proclaimed god of a new world, executing criminals as the vigilante known as Kira. Opposing him is L, the world's greatest detective — a bizarre, slouching enigma who matches Light move for move. What unfolds is one of anime's greatest intellectual duels, a chess match played with human lives. Death Note is a tense, stylish, morally provocative thriller that never lets you stop asking: is Light a hero, a villain, or something in between? The first 25 episodes are near-perfect television.",
+      "trailer_url": "https://www.youtube.com/watch?v=NlJZ-YgAt-c",
+      "trailer_id": "NlJZ-YgAt-c",
+      "popularity": 97,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "26-37"
+      ],
+      "filler_count": 12,
+      "pacing": "fast-paced",
+      "pacing_note": "Episodes 1–25 are relentlessly gripping with perfect escalation. Episodes 26–37 feel noticeably slower after a major mid-series shift.",
+      "tags": [
+        "cat-and-mouse",
+        "genius",
+        "moral dilemma",
+        "supernatural",
+        "detective"
+      ],
+      "similar_to": [
+        16,
+        19,
+        24,
+        31
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Demon Slayer",
+      "title_jp": "Kimetsu no Yaiba",
+      "poster": "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Supernatural",
+        "Drama"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 55,
+      "year": 2019,
+      "status": "Ongoing",
+      "studio": "ufotable",
+      "synopsis": "Tanjiro Kamado lives a humble life in the mountains, selling charcoal to support his family. One day he returns home to find his family slaughtered by a demon — and his younger sister Nezuko transformed into one herself. Against all odds, Nezuko retains a fragment of her humanity. Tanjiro sets out to become a Demon Slayer with two goals: avenge his family and find a cure to turn Nezuko back into a human. What distinguishes Demon Slayer is ufotable's jaw-dropping animation — every fight is a visual spectacle combining fluid choreography, luminous color, and a unique breathing technique system that is endlessly inventive. The emotional core, driven by Tanjiro's gentle determination and the bond between siblings, gives the action genuine weight. The Mugen Train arc in particular is one of the most emotionally devastating story arcs in modern anime.",
+      "trailer_url": "https://www.youtube.com/watch?v=VQGCKyvzIM4",
+      "trailer_id": "VQGCKyvzIM4",
+      "popularity": 96,
+      "hidden_gem": false,
+      "seasonal": true,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Methodical early build-up pays off enormously. The Mugen Train arc raises the stakes perfectly. Entertainment District and Swordsmith Village arcs are all killer, no filler.",
+      "tags": [
+        "swordfighting",
+        "demons",
+        "family",
+        "breathtaking animation",
+        "siblings"
+      ],
+      "similar_to": [
+        1,
+        8,
+        14,
+        22
+      ]
+    },
+    {
+      "id": 5,
+      "title": "One Piece",
+      "title_jp": "Wan Pīsu",
+      "poster": "https://cdn.myanimelist.net/images/anime/6/73245l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/6/73245l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "mood": [
+        "funny",
+        "intense"
+      ],
+      "episodes": 1122,
+      "year": 1999,
+      "status": "Ongoing",
+      "studio": "Toei Animation",
+      "synopsis": "Monkey D. Luffy ate the Gum-Gum Devil Fruit as a child, gaining the ability to stretch his body like rubber at the cost of never being able to swim. Inspired by the pirate Red-Haired Shanks, Luffy sets sail to find the legendary treasure One Piece and claim the title of King of the Pirates. He assembles a ragtag crew — the Straw Hat Pirates — each with their own tragic past and unfulfilled dream. One Piece is not just an adventure; it is a decades-long ode to friendship, freedom, and perseverance. Creator Eiichiro Oda has constructed one of the most intricately detailed fictional worlds in all of storytelling, where every island is a fully realized civilization with its own history, culture, and conflict. The emotional payoffs in arcs like Marineford, Dressrosa, and Whole Cake Island are unmatched in scope and heart. It is a commitment — but the greatest treasure in anime for those who stay the course.",
+      "trailer_url": "https://www.youtube.com/watch?v=S8_YwFLCh4U",
+      "trailer_id": "S8_YwFLCh4U",
+      "popularity": 95,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": true,
+      "filler_episodes": [
+        "54-61",
+        "131-143",
+        "196-206",
+        "220-226",
+        "279-283",
+        "317-319",
+        "326-335",
+        "382-384",
+        "406-407",
+        "426-429",
+        "457-458",
+        "492-516",
+        "575-578",
+        "590",
+        "895-906"
+      ],
+      "filler_count": 110,
+      "pacing": "variable",
+      "pacing_note": "East Blue and pre-timeskip: excellent pacing. Major filler arcs during early mid-series are skippable. Post-timeskip new world arcs dragged until the Wano arc which is spectacular. The recent episodes have been consistently high quality.",
+      "tags": [
+        "pirates",
+        "nakama",
+        "long-running",
+        "world-building",
+        "devil fruits"
+      ],
+      "similar_to": [
+        6,
+        12,
+        17,
+        28
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Naruto Shippuden",
+      "title_jp": "Naruto: Shippūden",
+      "poster": "https://cdn.myanimelist.net/images/anime/1565/111357l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1565/111357l.jpg",
+      "rating": 8.2,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Drama"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 500,
+      "year": 2007,
+      "status": "Completed",
+      "studio": "Pierrot",
+      "synopsis": "Two and a half years have passed since Naruto Uzumaki left the Hidden Leaf Village to train under legendary Sannin Jiraiya. The world is under threat from the criminal organization Akatsuki — a group of rogue ninja collecting the tailed beasts to unleash a centuries-old plan that could destroy civilization. Shippuden is the grand continuation of Naruto's journey: from a loud, ostracized boy to a genuine hero capable of inspiring entire nations. The Pain arc remains one of the most emotionally devastating sequences in anime history. The Fourth Shinobi World War arc delivers spectacular large-scale battles and heartbreaking sacrifices. Despite a notorious amount of flashback-heavy filler, when Shippuden is at its peak it is transcendent — a story about perseverance, forgiveness, and the weight of the cycles we inherit from those who came before us.",
+      "trailer_url": "https://www.youtube.com/watch?v=GsB6yxhBEzk",
+      "trailer_id": "GsB6yxhBEzk",
+      "popularity": 94,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "57-71",
+        "91-112",
+        "144-151",
+        "170-171",
+        "176-196",
+        "223-242",
+        "257-260",
+        "271",
+        "279-281",
+        "284-295",
+        "303-320",
+        "347-361",
+        "376-377",
+        "388-390",
+        "394-413",
+        "416",
+        "422-423",
+        "427-450",
+        "480-483"
+      ],
+      "filler_count": 203,
+      "pacing": "variable",
+      "pacing_note": "Canonical arcs (Pain, Five Kage Summit, War) are some of anime's best. However, nearly 40% of the series is filler or flashback padding — use a filler guide. The War arc drags significantly in its middle section.",
+      "tags": [
+        "ninja",
+        "friendship",
+        "long-running",
+        "epic battles",
+        "akatsuki"
+      ],
+      "similar_to": [
+        5,
+        12,
+        20,
+        27
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Steins;Gate",
+      "title_jp": "Shutainzu Gēto",
+      "poster": "https://cdn.myanimelist.net/images/anime/5/73199l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/5/73199l.jpg",
+      "rating": 9.1,
+      "genres": [
+        "Sci-Fi",
+        "Thriller",
+        "Romance",
+        "Psychological"
+      ],
+      "mood": [
+        "dark",
+        "emotional",
+        "intense"
+      ],
+      "episodes": 24,
+      "year": 2011,
+      "status": "Completed",
+      "studio": "White Fox",
+      "synopsis": "Rintaro Okabe is an eccentric self-styled mad scientist who runs a makeshift lab above a TV repair shop in Akihabara with his friends — the hacker Daru and the cheerful Mayuri. They accidentally discover that their microwave can send text messages into the past, altering the present. What begins as playful experiments quickly spirals into a devastating paradox when Okabe realizes that every change he makes to the timeline has catastrophic consequences for those he loves. Steins;Gate is a masterwork of slow-burn science fiction: its first half deliberately lulls you into comfortable slice-of-life rhythms before detonating everything in the second half. The time loop mechanics are rigorously consistent, the character writing is exceptional, and the emotional devastation of its latter episodes is earned through painstaking setup. It is an anime about the unbearable weight of knowing too much.",
+      "trailer_url": "https://www.youtube.com/watch?v=27OZc-ku6is",
+      "trailer_id": "27OZc-ku6is",
+      "popularity": 93,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Deliberately slow and comedic for episodes 1–12. Trust the process — episode 12 onwards is a completely different, electrifying show. The slow start is essential setup.",
+      "tags": [
+        "time travel",
+        "sci-fi",
+        "mind-bending",
+        "romance",
+        "akihabara"
+      ],
+      "similar_to": [
+        3,
+        16,
+        24,
+        31
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Jujutsu Kaisen",
+      "title_jp": "Jujutsu Kaisen",
+      "poster": "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+      "rating": 8.6,
+      "genres": [
+        "Action",
+        "Supernatural",
+        "Dark Fantasy",
+        "School"
+      ],
+      "mood": [
+        "intense",
+        "dark"
+      ],
+      "episodes": 48,
+      "year": 2020,
+      "status": "Ongoing",
+      "studio": "MAPPA",
+      "synopsis": "Yuji Itadori is a kind-hearted high school student with extraordinary physical ability. After his grandfather's dying words — to die surrounded by people — Yuji stumbles into the world of Jujutsu sorcerers when he swallows a cursed finger belonging to Ryomen Sukuna, the King of Curses, to save his friends from a curse. Now host to the most dangerous curse in history, Yuji is recruited into Tokyo Jujutsu High to consume all of Sukuna's fingers before being executed. The series explodes with MAPPA's stunning animation, particularly during Gojo Satoru's limitless technique sequences and the Shibuya Incident arc — arguably one of the most brutal and exhilarating story arcs in modern anime. Jujutsu Kaisen subverts shonen conventions by genuinely killing characters and raising the stakes to catastrophic levels, never letting the audience feel safe.",
+      "trailer_url": "https://www.youtube.com/watch?v=pkKu9hLT-t8",
+      "trailer_id": "pkKu9hLT-t8",
+      "popularity": 95,
+      "hidden_gem": false,
+      "seasonal": true,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Consistently fast pacing with almost no downtime. The Shibuya Incident arc in Season 2 is a relentless 13-episode escalation. One of the fastest-moving dark shonen series.",
+      "tags": [
+        "curses",
+        "sorcery",
+        "school",
+        "modern fantasy",
+        "gojo"
+      ],
+      "similar_to": [
+        1,
+        4,
+        22,
+        14
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Your Lie in April",
+      "title_jp": "Shigatsu wa Kimi no Uso",
+      "poster": "https://cdn.myanimelist.net/images/anime/3/67177l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/3/67177l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Music",
+        "Slice of Life"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 22,
+      "year": 2014,
+      "status": "Completed",
+      "studio": "A-1 Pictures",
+      "synopsis": "Kousei Arima was once known as the Human Metronome — a child prodigy pianist whose technically flawless performances left audiences cold. After the death of his abusive but beloved mother, he loses the ability to hear his own playing and disappears from the music world entirely. Years later, the free-spirited violinist Kaori Miyazono crashes into his life like a spring breeze, playing music with wild abandon and reminding him that music is not just notes on a page, but raw emotion made audible. Your Lie in April is visually sumptuous, with A-1 Pictures rendering musical performances as stunning audio-visual poetry. It is a meditation on grief, creation, and the people who transform us — and it earns its devastating conclusion through the most carefully layered foreshadowing in romance anime. Bring tissues.",
+      "trailer_url": "https://www.youtube.com/watch?v=vBmJJJlp1Kk",
+      "trailer_id": "vBmJJJlp1Kk",
+      "popularity": 90,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Gentle and deliberate. The romance and musical performances get ample breathing room. The emotional payoff requires patience but it is absolutely worth it.",
+      "tags": [
+        "music",
+        "love",
+        "tragedy",
+        "coming-of-age",
+        "piano",
+        "violin"
+      ],
+      "similar_to": [
+        18,
+        26,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Hunter x Hunter",
+      "title_jp": "Hunter × Hunter (2011)",
+      "poster": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+      "rating": 9.0,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Dark Fantasy"
+      ],
+      "mood": [
+        "intense",
+        "dark"
+      ],
+      "episodes": 148,
+      "year": 2011,
+      "status": "Completed",
+      "studio": "Madhouse",
+      "synopsis": "Gon Freecss grew up believing his parents were dead — until he learned his father Ging is actually one of the world's greatest Hunters: elite professionals licensed to pursue rare animals, treasures, criminals, or any challenge they choose. Gon sets out to become a Hunter himself, befriending the ruthless young assassin Killua Zoldyck along the way. What distinguishes Hunter x Hunter from every other adventure anime is how relentlessly it subverts and deconstructs genre expectations. The Hunter Exam arc is a gripping tournament. The Yorknew City arc is a tense thriller. The Chimera Ant arc — the longest and most ambitious — is a philosophical examination of humanity, war, and the nature of monsters that stands among the greatest story arcs in any medium. The final arc, the Election, wraps things up with melancholy grace. This is anime storytelling at its most daring.",
+      "trailer_url": "https://www.youtube.com/watch?v=D7ktKANNHvE",
+      "trailer_id": "D7ktKANNHvE",
+      "popularity": 92,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Each arc has its own distinct pacing. The Chimera Ant arc is deliberately slow-burn for episodes 78–120 before an explosive climax. The slowdown is intentional and thematically justified.",
+      "tags": [
+        "adventure",
+        "friendship",
+        "dark themes",
+        "power system",
+        "nen"
+      ],
+      "similar_to": [
+        2,
+        6,
+        5,
+        15
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Neon Genesis Evangelion",
+      "title_jp": "Shin Seiki Evangelion",
+      "poster": "https://cdn.myanimelist.net/images/anime/1704/106947l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1704/106947l.jpg",
+      "rating": 8.5,
+      "genres": [
+        "Psychological",
+        "Sci-Fi",
+        "Mecha",
+        "Drama"
+      ],
+      "mood": [
+        "dark",
+        "emotional"
+      ],
+      "episodes": 26,
+      "year": 1995,
+      "status": "Completed",
+      "studio": "Gainax",
+      "synopsis": "The year is 2015. Fifteen years after a cataclysm known as Second Impact devastated half the world's population, enormous beings called Angels are attacking Tokyo-3. The only defense is Nerv, a paramilitary organization that deploys massive bio-mechanical units called Evangelions, piloted exclusively by teenagers. Shinji Ikari — anxious, withdrawn, desperately seeking his absent father's approval — is recruited against his will to pilot Unit-01. Evangelion uses the mecha genre as a scaffolding for something far more ambitious: a deeply personal examination of depression, loneliness, identity, and the terror of human connection. Every character is psychologically complex and fundamentally broken in some way. The series famously implodes in its final two episodes into pure psychological abstraction before the theatrical film End of Evangelion delivers the full apocalyptic conclusion. It remains one of the most discussed, analyzed, and influential anime ever made.",
+      "trailer_url": "https://www.youtube.com/watch?v=nP8BRsgqYaI",
+      "trailer_id": "nP8BRsgqYaI",
+      "popularity": 88,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Early episodes play like a conventional mecha show. Around episode 16 the psychological themes overwhelm everything else. The final two episodes are entirely introspective and divisive.",
+      "tags": [
+        "mecha",
+        "existential",
+        "classic",
+        "psychological",
+        "depression"
+      ],
+      "similar_to": [
+        7,
+        16,
+        19,
+        24
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Dragon Ball Z",
+      "title_jp": "Doragon Bōru Zetto",
+      "poster": "https://cdn.myanimelist.net/images/anime/1277/142022l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1277/142022l.jpg",
+      "rating": 8.2,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "mood": [
+        "intense",
+        "funny"
+      ],
+      "episodes": 291,
+      "year": 1989,
+      "status": "Completed",
+      "studio": "Toei Animation",
+      "synopsis": "Five years have passed since Goku won the World Martial Arts Tournament. A visitor from outer space reveals that Goku is actually a Saiyan — a member of a warrior race — and his long-lost brother Raditz has come to recruit him. Goku's refusal triggers a cascade of escalating threats: the Saiyans Vegeta and Nappa, the galactic tyrant Frieza on the planet Namek, the bio-android Cell, and ultimately the ancient wizard Majin Buu. Dragon Ball Z essentially invented the power-scaling tournament shonen as we know it today. Its iconic transformations — particularly the first Super Saiyan transformation in the Frieza saga — remain among the most electrifying moments in animation history. While it suffers from notorious pacing issues (the Frieza saga alone takes nearly 30 episodes to conclude a 5-minute battle), its cultural impact and the raw thrill of its best moments are irreplaceable.",
+      "trailer_url": "https://www.youtube.com/watch?v=k9_sHyqDoXs",
+      "trailer_id": "k9_sHyqDoXs",
+      "popularity": 91,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "1",
+        "7-8",
+        "10",
+        "17",
+        "28",
+        "39-44",
+        "64-67",
+        "170-194"
+      ],
+      "filler_count": 39,
+      "pacing": "slow-burn",
+      "pacing_note": "Infamously slow — battles stretch across dozens of episodes. The Frieza arc is the most egregious example. DBZ Kai (a recut version) removes most filler and pacing issues, running only 167 episodes.",
+      "tags": [
+        "super saiyan",
+        "classic",
+        "battles",
+        "aliens",
+        "transformations"
+      ],
+      "similar_to": [
+        5,
+        6,
+        10,
+        20
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Spirited Away",
+      "title_jp": "Sen to Chihiro no Kamikakushi",
+      "poster": "https://cdn.myanimelist.net/images/anime/6/79597l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/6/79597l.jpg",
+      "rating": 8.9,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Supernatural",
+        "Slice of Life"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 1,
+      "year": 2001,
+      "status": "Completed",
+      "studio": "Studio Ghibli",
+      "synopsis": "Ten-year-old Chihiro is sulky and reluctant as her family moves to a new neighborhood — until they stumble through a mysterious tunnel into a spirit world of bathhouses, enchanted rivers, and beings from Japanese folklore. Her parents are transformed into pigs by the witch Yubaba, and Chihiro must work in Yubaba's grand bathhouse to earn their freedom, taking the name Sen. What follows is Studio Ghibli and Hayao Miyazaki at their absolute peak: a film so rich in visual invention and symbolic depth that it rewards rewatching indefinitely. Spirited Away won the Academy Award for Best Animated Feature and remains the highest-grossing film in Japanese history. It captures childhood disorientation and resilience with breathtaking authenticity — the world is strange and threatening and magical, and Chihiro must navigate it entirely on her own terms, growing from helplessness into quiet courage.",
+      "trailer_url": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+      "trailer_id": "ByXuk9QqQkk",
+      "popularity": 89,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "A single 125-minute film — every scene earns its place. Miyazaki's direction ensures constant visual wonder with perfect emotional escalation.",
+      "tags": [
+        "ghibli",
+        "coming-of-age",
+        "fantasy world",
+        "film",
+        "miyazaki",
+        "academy award"
+      ],
+      "similar_to": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bleach: Thousand-Year Blood War",
+      "title_jp": "Bleach: Sennen Kessen-hen",
+      "poster": "https://cdn.myanimelist.net/images/anime/1764/122994l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1764/122994l.jpg",
+      "rating": 9.1,
+      "genres": [
+        "Action",
+        "Supernatural",
+        "Adventure",
+        "Dark Fantasy"
+      ],
+      "mood": [
+        "intense",
+        "dark"
+      ],
+      "episodes": 61,
+      "year": 2022,
+      "status": "Ongoing",
+      "studio": "Pierrot",
+      "synopsis": "After years of peace, the Soul Society faces its greatest threat yet: the Wandenreich — a shadow empire of elite Quincy warriors led by the seemingly omnipotent Yhwach, who seeks to destroy all Soul Reapers and reshape existence itself. Ichigo Kurosaki, now older and more powerful than ever, must unlock the deepest secrets of his own origin to face an enemy who has already defeated the most powerful captains in the Gotei 13. Bleach: TYBW is a triumphant return after a decade-long hiatus, produced with cinematic quality that eclipses anything Pierrot had previously delivered. The reveals about Ichigo's heritage, the backstory of the Soul King, and the true history of the Quincy are among the most rewarding payoffs for long-time fans. Director Tomohisa Taguchi and the animation team have created what fans always knew the final arc deserved — an epic conclusion worthy of one of the Big Three.",
+      "trailer_url": "https://www.youtube.com/watch?v=FdFkOyex8gI",
+      "trailer_id": "FdFkOyex8gI",
+      "popularity": 94,
+      "hidden_gem": false,
+      "seasonal": true,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Relentless from episode 1. Virtually no downtime. Every episode advances the war. Some character backstories are brief but impactful. One of the tightest adaptations Pierrot has produced.",
+      "tags": [
+        "soul reaper",
+        "comeback",
+        "epic battles",
+        "supernatural",
+        "quincy"
+      ],
+      "similar_to": [
+        4,
+        8,
+        1,
+        22
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Vinland Saga",
+      "title_jp": "Vinrando Saga",
+      "poster": "https://cdn.myanimelist.net/images/anime/1500/103005l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1500/103005l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Action",
+        "Historical",
+        "Drama",
+        "Adventure",
+        "Philosophical"
+      ],
+      "mood": [
+        "dark",
+        "emotional",
+        "intense"
+      ],
+      "episodes": 48,
+      "year": 2019,
+      "status": "Completed",
+      "studio": "Wit Studio / MAPPA",
+      "synopsis": "Thorfinn is the son of Thors, the greatest Viking warrior who ever lived — a man who put down his sword and chose peace. When Thors is murdered by the mercenary Askeladd, the young Thorfinn joins Askeladd's band as a child, fighting in skirmishes to earn the right to duel and kill the man who killed his father. Season 1 is a revenge epic set against the Viking invasions of England under King Sweyn. Season 2 — the Farm Arc — is a radical tonal shift that strips away battle and spectacle entirely to ask: what does a warrior do when he decides violence is no longer the answer? Vinland Saga is one of the most philosophically mature anime ever made, grappling with themes of pacifism, slavery, trauma, and the possibility of redemption. The payoffs in Season 2 are extraordinary precisely because Season 1 has built such deep foundations.",
+      "trailer_url": "https://www.youtube.com/watch?v=o_k7LRpFgJc",
+      "trailer_id": "o_k7LRpFgJc",
+      "popularity": 89,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Season 1 starts action-heavy but Season 2 is an intentionally quiet, contemplative arc about farming and inner peace. Polarizing but masterful — the story demands the slow pace.",
+      "tags": [
+        "vikings",
+        "revenge",
+        "war",
+        "philosophical",
+        "pacifism",
+        "historical"
+      ],
+      "similar_to": [
+        1,
+        2,
+        10,
+        30
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Code Geass",
+      "title_jp": "Kōdo Giasu: Hangyaku no Rurūshu",
+      "poster": "https://cdn.myanimelist.net/images/anime/5/50331l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/5/50331l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Mecha",
+        "Psychological",
+        "Drama"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 50,
+      "year": 2006,
+      "status": "Completed",
+      "studio": "Sunrise",
+      "synopsis": "In an alternate timeline where the Holy Britannian Empire has conquered Japan — renaming it Area 11 — exiled Britannian prince Lelouch vi Britannia receives the power of the King from a mysterious woman named C.C.: the Geass, an absolute ability to command anyone to obey a single order without question. Lelouch becomes the masked revolutionary Zero, leading the Order of the Black Knights in a liberation war against Britannia — while concealing his identity from everyone, including his best friend Suzaku, who has chosen to work within the system to change it. Code Geass is an addictive, twisty, operatic thriller that delivers shocking reversals at an extraordinary pace. Its chess-game battles, morally grey protagonists, and genuinely tragic finale place it among the greatest mecha-political dramas ever made. Lelouch is one of anime's most fascinating anti-heroes.",
+      "trailer_url": "https://www.youtube.com/watch?v=pLBuSNZbXs8",
+      "trailer_id": "pLBuSNZbXs8",
+      "popularity": 91,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Rarely slows down. Nearly every episode ends with a shocking development or cliffhanger. Season 2 escalates even faster. Binge-friendly to the extreme.",
+      "tags": [
+        "rebellion",
+        "mecha",
+        "tactical",
+        "political",
+        "anti-hero",
+        "zero"
+      ],
+      "similar_to": [
+        3,
+        7,
+        11,
+        19
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Fairy Tail",
+      "title_jp": "Fearī Teiru",
+      "poster": "https://cdn.myanimelist.net/images/anime/5/18179l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/5/18179l.jpg",
+      "rating": 7.9,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "mood": [
+        "funny",
+        "intense"
+      ],
+      "episodes": 328,
+      "year": 2009,
+      "status": "Completed",
+      "studio": "A-1 Pictures / Bridge",
+      "synopsis": "In a world where magic is currency and power, wizards belong to guilds — teams for hire that take on any job for a price. The most famous and most chaotic of all guilds is Fairy Tail, home to fire dragon slayer Natsu Dragneel, celestial spirit mage Lucy Heartfilia, ice-make wizard Gray Fullbuster, and armor mage Erza Scarlet. Fairy Tail is comfort food anime at its most unapologetic — it prioritizes friendship, found family, and spectacular magic battles over complex storytelling. Its ensemble cast is enormous and charming. The guild rivalry arcs, the Fantasia arc, the Tenrou Island arc, and the Grand Magic Games deliver genuine emotional investment. If you can accept that characters will cry about friendship every seven episodes and nakama power solves most problems, Fairy Tail is enormously entertaining.",
+      "trailer_url": "https://www.youtube.com/watch?v=gWFVNxQSk7I",
+      "trailer_id": "gWFVNxQSk7I",
+      "popularity": 85,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "9-13",
+        "19-20",
+        "50",
+        "69-75",
+        "125-150",
+        "204-226"
+      ],
+      "filler_count": 78,
+      "pacing": "variable",
+      "pacing_note": "Inconsistent — arcs range from snappy to bloated. Episodes 125–150 are entirely skippable filler. The Grand Magic Games arc is one of the best-paced sections. The final arc rushes its ending noticeably.",
+      "tags": [
+        "guild",
+        "magic",
+        "friendship",
+        "long-running",
+        "nakama",
+        "dragon slayer"
+      ],
+      "similar_to": [
+        5,
+        6,
+        12,
+        20
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Clannad: After Story",
+      "title_jp": "Kuranado Afutā Sutōrī",
+      "poster": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg",
+      "rating": 8.9,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Slice of Life",
+        "Supernatural"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 24,
+      "year": 2008,
+      "status": "Completed",
+      "studio": "Kyoto Animation",
+      "synopsis": "Picking up directly from Clannad, this sequel follows Tomoya Okazaki and Nagisa Furukawa as they graduate high school and navigate the challenges of adult life together. What begins as a sweet romance about building a future evolves into one of the most emotionally devastating explorations of love, loss, parenthood, and grief that anime — or any medium — has ever produced. After Story dismantles comfortable expectations and forces its characters to confront the hardest aspects of human existence without flinching. KyoAni's animation is painterly and intimate, perfectly capturing the texture of daily life before shattering it. The supernatural element involving the Illusory World provides a layer of magical realism that makes the emotional payoff even more extraordinary. Many fans regard episodes 16–22 as some of the most emotionally overwhelming television ever made. Watch Clannad first.",
+      "trailer_url": "https://www.youtube.com/watch?v=o01PoRhYpwM",
+      "trailer_id": "o01PoRhYpwM",
+      "popularity": 86,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "1-9"
+      ],
+      "filler_count": 9,
+      "pacing": "slow-burn",
+      "pacing_note": "First 9 episodes wrap up Clannad's other routes (can be skipped if you watched the VN). The real journey begins at episode 9–10. The emotional escalation from ep 14 onward is relentless.",
+      "tags": [
+        "family",
+        "marriage",
+        "tragedy",
+        "tearjerker",
+        "kyoani",
+        "life"
+      ],
+      "similar_to": [
+        9,
+        26,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Monster",
+      "title_jp": "Monsutā",
+      "poster": "https://cdn.myanimelist.net/images/anime/10/18793l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/10/18793l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Mystery",
+        "Psychological",
+        "Thriller",
+        "Drama"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 74,
+      "year": 2004,
+      "status": "Completed",
+      "studio": "Madhouse",
+      "synopsis": "Dr. Kenzo Tenma is a brilliant Japanese neurosurgeon rising rapidly through the ranks of a prestigious Düsseldorf hospital — until a moral choice derails his career. He saves the life of a young boy over a politically important patient. Years later, that boy — Johan Liebert — has grown into a sociopathic serial killer who moves through Europe like a ghost, leaving destruction in his wake. Tenma, framed for murders he didn't commit, abandons his career to track Johan across Germany, discovering a dark history connecting post-Cold War Eastern Europe, secret experiments on children, and a monster who may be beyond redemption. Monster is slow, methodical, and absolutely gripping — a prestige crime thriller that would be at home alongside the best of Scandinavian noir. Its character studies are profound, its atmosphere suffocating, and Johan Liebert is one of the most terrifying villains in all of fiction.",
+      "trailer_url": "https://www.youtube.com/watch?v=CkOBBgqbcnI",
+      "trailer_id": "CkOBBgqbcnI",
+      "popularity": 82,
+      "hidden_gem": true,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Deliberately slow with the pacing of a literary novel. Side characters and subplots are extensively developed. Trust every detour — they all converge. Not an action anime; this is a thriller that demands patience.",
+      "tags": [
+        "thriller",
+        "cat-and-mouse",
+        "mystery",
+        "realistic",
+        "serial killer",
+        "europe"
+      ],
+      "similar_to": [
+        3,
+        7,
+        16,
+        24
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Black Clover",
+      "title_jp": "Burakkku Kurōbā",
+      "poster": "https://cdn.myanimelist.net/images/anime/2/88336l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/2/88336l.jpg",
+      "rating": 8.1,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Adventure",
+        "Comedy"
+      ],
+      "mood": [
+        "intense",
+        "funny"
+      ],
+      "episodes": 170,
+      "year": 2017,
+      "status": "Completed",
+      "studio": "Pierrot",
+      "synopsis": "In a world where magic defines one's place in society, Asta was born without any magical ability whatsoever — a seemingly insurmountable disadvantage in a world where even peasants have some magical power. Alongside his childhood rival and best friend Yuno, who wields extraordinary wind magic, Asta vows to become the Wizard King — the most powerful mage in the realm. What appears at first to be a derivative shonen premise reveals genuine heart in its execution. Asta's anti-magic grimoire, his relentless physical training, and his boundless determination make for a satisfying underdog story. The Magic Knights arc, the dungeon expeditions, and the Reincarnation arc all build upon each other effectively. Black Clover rewards patience — it starts rough around the edges and matures considerably into a confident, emotionally resonant adventure series that knows exactly what it wants to be.",
+      "trailer_url": "https://www.youtube.com/watch?v=T0SXFsTGkjE",
+      "trailer_id": "T0SXFsTGkjE",
+      "popularity": 80,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "29",
+        "66",
+        "68",
+        "82",
+        "123",
+        "131",
+        "134-135",
+        "142-148",
+        "156-157"
+      ],
+      "filler_count": 16,
+      "pacing": "variable",
+      "pacing_note": "Early episodes are slow to get going. Finds its rhythm around episode 50. The Reincarnation arc is the show's peak. Filler content is light and mostly skippable without losing story context.",
+      "tags": [
+        "underdog",
+        "magic knights",
+        "rivalry",
+        "determination",
+        "anti-magic"
+      ],
+      "similar_to": [
+        6,
+        17,
+        5,
+        12
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Spy x Family",
+      "title_jp": "Supai Famirī",
+      "poster": "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+      "rating": 8.6,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Slice of Life",
+        "Romance"
+      ],
+      "mood": [
+        "funny",
+        "relaxing"
+      ],
+      "episodes": 37,
+      "year": 2022,
+      "status": "Ongoing",
+      "studio": "Wit Studio / CloverWorks",
+      "synopsis": "The Cold War-esque nation of Westalis needs a top spy to infiltrate an elite school and get close to a dangerous political figure. Agent Loid Forger, codenamed Twilight, must construct a cover family in days — so he adopts a girl named Anya (secretly a telepath who can read minds) and enters a sham marriage with Yor (secretly a professional assassin). None of them know each other's true identities. Spy x Family is a joyful, warm, beautifully animated comedy of errors that delivers genuine laughs alongside genuine heart. Anya — with her enormous expressive eyes and deadpan reactions — is one of the most beloved characters in recent anime history. The series celebrates the idea of a found family while poking affectionate fun at spy and action genre tropes. It is the rare action-comedy that excels equally at both halves of that equation.",
+      "trailer_url": "https://www.youtube.com/watch?v=2KlSQ1AcVTQ",
+      "trailer_id": "2KlSQ1AcVTQ",
+      "popularity": 92,
+      "hidden_gem": false,
+      "seasonal": true,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Light and breezy with consistent episode quality. Lacks an overarching plot urgency but compensates with charming episodic content. Perfect casual watching.",
+      "tags": [
+        "spy",
+        "comedy",
+        "family",
+        "wholesome",
+        "anya",
+        "found family"
+      ],
+      "similar_to": [
+        29,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": 22,
+      "title": "My Hero Academia",
+      "title_jp": "Boku no Hīrō Akademia",
+      "poster": "https://cdn.myanimelist.net/images/anime/10/78745l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/10/78745l.jpg",
+      "rating": 8.4,
+      "genres": [
+        "Action",
+        "Superhero",
+        "School",
+        "Drama"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 138,
+      "year": 2016,
+      "status": "Completed",
+      "studio": "Bones",
+      "synopsis": "In a world where 80% of humanity has developed a superpower called a Quirk, Izuku Midoriya was born Quirkless — one of the 20% with no power. Despite being powerless, Izuku's encyclopedic knowledge of heroes and selfless courage earn him the attention of the world's greatest hero, All Might, who passes on his legendary One For All Quirk to the boy he sees as his worthy successor. Izuku enrolls in U.A. High School, the most prestigious hero academy in Japan, and begins the brutal process of learning to wield a power his body was never designed to hold. My Hero Academia captures the essence of what makes superhero stories resonate: the desire to protect others, the burden of great power, and the question of what makes a true hero. Its ensemble cast of students and villains is richly developed, and its best arcs — the Sports Festival, the Overhaul arc, and the War arc — deliver spectacular set pieces alongside genuine character depth.",
+      "trailer_url": "https://www.youtube.com/watch?v=EP0_E7BMIXo",
+      "trailer_id": "EP0_E7BMIXo",
+      "popularity": 93,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "58"
+      ],
+      "filler_count": 1,
+      "pacing": "balanced",
+      "pacing_note": "Well-paced with minimal filler. The Sports Festival arc is an exciting early highlight. Quality dips slightly in Season 4 before recovering strongly. Season 6 is among the darkest and best-paced in the series.",
+      "tags": [
+        "superhero",
+        "school",
+        "quirks",
+        "underdog",
+        "plus ultra"
+      ],
+      "similar_to": [
+        1,
+        4,
+        8,
+        6
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Haikyuu!!",
+      "title_jp": "Haikyū!!",
+      "poster": "https://cdn.myanimelist.net/images/anime/7/76014l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/7/76014l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Sports",
+        "Comedy",
+        "Drama",
+        "School"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 85,
+      "year": 2014,
+      "status": "Completed",
+      "studio": "Production I.G",
+      "synopsis": "Short but explosive Shoyo Hinata is obsessed with volleyball after seeing a tiny player known as the Little Giant compete at nationals. He forms an unlikely partnership with his natural rival, genius setter Tobio Kageyama, at Karasuno High School's volleyball club — once a powerhouse, now struggling to reclaim its former glory. Haikyuu is the definitive sports anime: it makes you care desperately about volleyball even if you've never watched a game. Its secret is that it treats every opposing team as fully human — giving rivals their own backstories, philosophies, and reasons to win. Every major match is an emotional rollercoaster with production values that rival theatrical animation. The sound design and OST by Yuki Hayashi are perfect complements to the on-court action. Haikyuu is about the joy of a sport, the agony of defeat, and the people who push you to reach heights you couldn't reach alone.",
+      "trailer_url": "https://www.youtube.com/watch?v=MqX-bGkT96Q",
+      "trailer_id": "MqX-bGkT96Q",
+      "popularity": 91,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Excellent pacing throughout all four seasons. Matches are given enough time to breathe but never drag. Season 4 adapts two massive matches with cinematic flair.",
+      "tags": [
+        "volleyball",
+        "sports",
+        "team",
+        "rivals",
+        "determination"
+      ],
+      "similar_to": [
+        28,
+        29,
+        27,
+        23
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Psycho-Pass",
+      "title_jp": "Saiko Pasu",
+      "poster": "https://cdn.myanimelist.net/images/anime/12/41992l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/12/41992l.jpg",
+      "rating": 8.4,
+      "genres": [
+        "Sci-Fi",
+        "Psychological",
+        "Thriller",
+        "Action"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 22,
+      "year": 2012,
+      "status": "Completed",
+      "studio": "Production I.G",
+      "synopsis": "In 22nd-century Japan, the Sibyl System measures every citizen's mental state and assigns them a Psycho-Pass — a numerical value representing their potential for criminal intent. If your Coefficient exceeds a threshold, you are subject to enforcement. Inspector Akane Tsunemori joins the Public Safety Bureau's Criminal Investigation Division alongside Enforcers — latent criminals used as hunting dogs — including the brilliant and increasingly disillusioned Shinya Kogami. Their first major case brings them into conflict with Shogo Makishima, a philosopher and criminal who seems immune to the Sibyl System's measurement — a man the system cannot judge. Psycho-Pass asks searching questions about determinism, free will, systemic injustice, and whether a society can truly be safe if safety comes at the cost of autonomy. It is cyberpunk noir with genuine philosophical backbone.",
+      "trailer_url": "https://www.youtube.com/watch?v=QXYL2GDyGpU",
+      "trailer_id": "QXYL2GDyGpU",
+      "popularity": 85,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Confident, atmospheric pacing. Early case-of-the-week episodes build the world effectively before the main arc locks in around episode 8. Season 1 is excellent; later seasons are diminishing returns.",
+      "tags": [
+        "cyberpunk",
+        "dystopia",
+        "detective",
+        "future",
+        "free will"
+      ],
+      "similar_to": [
+        3,
+        7,
+        11,
+        19
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Violet Evergarden",
+      "title_jp": "Vaioretto Evāgāden",
+      "poster": "https://cdn.myanimelist.net/images/anime/1795/95088l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1795/95088l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Slice of Life",
+        "Romance"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 13,
+      "year": 2018,
+      "status": "Completed",
+      "studio": "Kyoto Animation",
+      "synopsis": "Violet Evergarden was raised as a weapon — a child soldier with prosthetic arms known as Auto Memory Doll weapons, trained to follow orders and feel nothing. After the war ends and the man she was devoted to disappears with parting words she cannot understand, Violet becomes a ghostwriter — an Auto Memory Doll who writes letters for people who cannot express their feelings. Each client teaches her something new about emotion, love, grief, and humanity. Kyoto Animation's production is arguably the most visually stunning in television anime history: the lighting, the character animation, the environmental detail, and the musical score by Evan Call form a total artwork of extraordinary beauty. Violet Evergarden is a meditation on what it means to learn to feel — and each of its episodic stories is a perfectly formed short story about human connection.",
+      "trailer_url": "https://www.youtube.com/watch?v=0CJeDetA45Q",
+      "trailer_id": "0CJeDetA45Q",
+      "popularity": 87,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Deliberately episodic and contemplative. Episodes 10 and 13 are among the most emotionally devastating in anime history. Does not rush its central mystery — Violet's emotional growth is gradual and earned.",
+      "tags": [
+        "emotions",
+        "post-war",
+        "beautiful animation",
+        "letters",
+        "kyoani"
+      ],
+      "similar_to": [
+        9,
+        18,
+        33,
+        26
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Anohana: The Flower We Saw That Day",
+      "title_jp": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+      "poster": "https://cdn.myanimelist.net/images/anime/1_1chokkin/anohana/key_visual.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1_1chokkin/anohana/key_visual.jpg",
+      "rating": 8.5,
+      "genres": [
+        "Drama",
+        "Supernatural",
+        "Slice of Life",
+        "Romance"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 11,
+      "year": 2011,
+      "status": "Completed",
+      "studio": "A-1 Pictures",
+      "synopsis": "Jinta Yadomi has withdrawn from the world since childhood, living as a recluse in the wake of the accidental death of Meiko 'Menma' Honma — his closest friend, the girl everyone loved. Years later, Menma's ghost appears to him — cheerful, unchanged, as if no time has passed — with a wish she needs fulfilled before she can pass on. But she can't remember what the wish is. To find out, Jinta must reassemble the childhood friend group that fell apart after Menma's death, forcing each of them to confront the grief and guilt they have spent years burying. Anohana is an 11-episode masterclass in compressed emotional storytelling — every episode advances both the mystery and the character work, building to one of the most cathartic finales in anime. The final episode is one of anime's all-time great tearjerkers.",
+      "trailer_url": "https://www.youtube.com/watch?v=dWBbhqm6sMU",
+      "trailer_id": "dWBbhqm6sMU",
+      "popularity": 78,
+      "hidden_gem": true,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "11 episodes with zero fat. Every scene serves the story. The pacing is expertly calibrated to deliver maximum emotional impact in minimum screen time.",
+      "tags": [
+        "ghost",
+        "friendship",
+        "grief",
+        "childhood",
+        "tearjerker"
+      ],
+      "similar_to": [
+        9,
+        18,
+        25,
+        32
+      ]
+    },
+    {
+      "id": 27,
+      "title": "One Punch Man",
+      "title_jp": "Wanpanman",
+      "poster": "https://cdn.myanimelist.net/images/anime/12/76049l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/12/76049l.jpg",
+      "rating": 8.5,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Superhero",
+        "Parody"
+      ],
+      "mood": [
+        "funny",
+        "intense"
+      ],
+      "episodes": 24,
+      "year": 2015,
+      "status": "Completed",
+      "studio": "Madhouse / J.C.Staff",
+      "synopsis": "Saitama became a hero for fun, training so hard that he lost all his hair and gained the ability to defeat any enemy with a single punch. The problem: being unbeatable is incredibly boring. Every fight ends in one hit. Every villain turns out to be trivially weak. Saitama wanders through a world full of dramatic hero battles feeling nothing but empty disappointment. One Punch Man is a brilliant deconstruction of shonen power fantasy that works on two levels simultaneously: as a sharp satirical comedy about the absurdity of genre conventions, and as a genuinely spectacular action anime in its own right. Season 1 in particular features some of Madhouse's finest animation work. Genos, the cyborg disciple who has the emotional investment Saitama lacks, serves as the perfect straight-man foil. The series asks: what do you do when you've already achieved everything?",
+      "trailer_url": "https://www.youtube.com/watch?v=4-XaJ6KYsHs",
+      "trailer_id": "4-XaJ6KYsHs",
+      "popularity": 91,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Energetic and punchy throughout. Season 1 is near-perfect. Season 2 (J.C.Staff) has slightly lower production quality but decent pacing. Both seasons are watchable in a single sitting.",
+      "tags": [
+        "superhero",
+        "parody",
+        "overpowered",
+        "comedy",
+        "satire"
+      ],
+      "similar_to": [
+        22,
+        38,
+        39,
+        21
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Kuroko's Basketball",
+      "title_jp": "Kuroko no Basuke",
+      "poster": "https://cdn.myanimelist.net/images/anime/11/50571l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/11/50571l.jpg",
+      "rating": 8.3,
+      "genres": [
+        "Sports",
+        "Drama",
+        "School",
+        "Action"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 75,
+      "year": 2012,
+      "status": "Completed",
+      "studio": "Production I.G",
+      "synopsis": "Teikou Middle School produced the legendary Generation of Miracles — five prodigies who together dominated all of Japanese middle school basketball. There was also a sixth player almost no one noticed: the phantom sixth man, Tetsuya Kuroko, who had almost no presence on the court. Now in high school, Kuroko teams up with the raw powerhouse Kagami Taiga at the underdog Seirin High to defeat each of the Generation of Miracles and prove that team basketball can triumph over individual genius. Kuroko's Basketball elevates sports anime to operatic heights with its increasingly superhuman power escalation — by the final season, players are catching bullets and breaking sound barriers. If you can embrace its gleefully over-the-top premise, it delivers exceptional tension and spectacularly animated matches.",
+      "trailer_url": "https://www.youtube.com/watch?v=RRMz7FTFvXI",
+      "trailer_id": "RRMz7FTFvXI",
+      "popularity": 82,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Consistent pacing across all three seasons. Major games get the screen time they deserve without overstaying their welcome. The training arcs between games are brief and functional.",
+      "tags": [
+        "basketball",
+        "sports",
+        "rivals",
+        "team",
+        "generation of miracles"
+      ],
+      "similar_to": [
+        23,
+        29,
+        10,
+        22
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Ouran High School Host Club",
+      "title_jp": "Ōran Kōkō Hosuto Kurabu",
+      "poster": "https://cdn.myanimelist.net/images/anime/18/75877l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/18/75877l.jpg",
+      "rating": 8.2,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Slice of Life",
+        "School"
+      ],
+      "mood": [
+        "funny",
+        "relaxing"
+      ],
+      "episodes": 26,
+      "year": 2006,
+      "status": "Completed",
+      "studio": "Bones",
+      "synopsis": "Haruhi Fujioka is a scholarship student at the elite Ouran Academy — a school for the obscenely wealthy where she stands out as a practical commoner among peacocking aristocrats. After accidentally destroying an expensive vase belonging to the Host Club — a group of handsome boys who entertain female students for fun — she is conscripted into the club to work off her debt, initially disguised as a boy. The Host Club's members include the princely Tamaki, the devilish Hitachiin twins, the quiet genius Kyoya, and the adorably childlike Mori and Honey senpai. Ouran is a loving, irreverent parody of shoujo romance tropes that never loses its warmth. Its comedy is sharp and its character dynamics are genuinely charming. The relationship between Haruhi and Tamaki develops beautifully across the series.",
+      "trailer_url": "https://www.youtube.com/watch?v=1bF7eoJn-DU",
+      "trailer_id": "1bF7eoJn-DU",
+      "popularity": 80,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "Episodic with a light overarching romance. Comedy episodes are reliably funny. The final emotional arc hits much harder than the show's comedy-first presentation suggests.",
+      "tags": [
+        "host club",
+        "reverse harem",
+        "parody",
+        "wholesome",
+        "school comedy"
+      ],
+      "similar_to": [
+        21,
+        38,
+        40,
+        32
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Berserk",
+      "title_jp": "Beruseruku",
+      "poster": "https://cdn.myanimelist.net/images/anime/1813/122795l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1813/122795l.jpg",
+      "rating": 8.6,
+      "genres": [
+        "Action",
+        "Dark Fantasy",
+        "Drama",
+        "Horror"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 25,
+      "year": 1997,
+      "status": "Completed",
+      "studio": "OLM",
+      "synopsis": "Guts, the Black Swordsman, wields an enormous blade as tall as he is, fighting through a medieval dark fantasy world consumed by demons, corruption, and the supernatural. The 1997 anime covers the Golden Age arc — Guts' past, his time with the mercenary Band of the Hawk under the charismatic and frighteningly ambitious Griffith, and the catastrophic Eclipse that shattered everything. Berserk is a brutal, psychologically complex dark fantasy that influenced virtually every subsequent dark action series. Its themes of ambition, sacrifice, free will versus fate, and the corruption of idealism make it one of the most philosophically weighty anime ever produced. The Eclipse sequence remains one of the most disturbing and narratively shocking climaxes in the medium. Note: the 1997 adaptation ends on a cliffhanger — read the manga for the full story.",
+      "trailer_url": "https://www.youtube.com/watch?v=SbLiC5kc_uo",
+      "trailer_id": "SbLiC5kc_uo",
+      "popularity": 83,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "The Golden Age arc is a slow build of character and relationships that makes the Eclipse's devastation all the more horrific. Rewards patient viewers enormously. Pacing is novelistic rather than action-driven.",
+      "tags": [
+        "dark fantasy",
+        "swordsman",
+        "band of the hawk",
+        "classic",
+        "brutal"
+      ],
+      "similar_to": [
+        1,
+        15,
+        19,
+        11
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Erased",
+      "title_jp": "Boku dake ga Inai Machi",
+      "poster": "https://cdn.myanimelist.net/images/anime/10/76120l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/10/76120l.jpg",
+      "rating": 8.6,
+      "genres": [
+        "Mystery",
+        "Psychological",
+        "Thriller",
+        "Supernatural"
+      ],
+      "mood": [
+        "dark",
+        "emotional",
+        "intense"
+      ],
+      "episodes": 12,
+      "year": 2016,
+      "status": "Completed",
+      "studio": "A-1 Pictures",
+      "synopsis": "Satoru Fujinuma is a struggling manga artist with a hidden ability he calls Revival — a brief time rewind that triggers whenever someone nearby is in danger. When his mother is murdered and he is framed for the crime, Revival sends him 18 years into the past — to 1988 and his childhood in Hokkaido. There, young Satoru realizes the murder is connected to a series of child kidnappings that occurred that year. He has a chance to prevent them and save the lives that were lost — including that of his classmate Kayo Hinazuki, a quiet, lonely girl who would become one of the victims. Erased is a masterfully tense mystery thriller with one of the most efficient 12-episode structures in anime. Its child abuse storyline is handled with genuine care and horror, and the relationship between Satoru and Kayo is quietly devastating.",
+      "trailer_url": "https://www.youtube.com/watch?v=KAkfj-aTEeA",
+      "trailer_id": "KAkfj-aTEeA",
+      "popularity": 85,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "One of the most relentlessly paced mystery anime — each episode ends on a cliffhanger that demands you watch the next. 12 episodes that feel like a single held breath.",
+      "tags": [
+        "time travel",
+        "mystery",
+        "thriller",
+        "childhood",
+        "child abuse"
+      ],
+      "similar_to": [
+        3,
+        7,
+        24,
+        19
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Toradora!",
+      "title_jp": "Toradora!",
+      "poster": "https://cdn.myanimelist.net/images/anime/13/22128l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/13/22128l.jpg",
+      "rating": 8.3,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "School",
+        "Drama"
+      ],
+      "mood": [
+        "funny",
+        "emotional"
+      ],
+      "episodes": 25,
+      "year": 2008,
+      "status": "Completed",
+      "studio": "J.C.Staff",
+      "synopsis": "Ryuji Takasu looks like a delinquent — his natural glare terrifies people despite his gentle, domestic nature. Taiga Aisaka is tiny, fierce, and nicknamed the Palmtop Tiger — a terrifying girl with zero social skills and a genuine ferocity. They discover they each have a crush on the other's best friend and form an uneasy alliance to help each other confess. What evolves from this premise is one of the most emotionally intelligent romance anime ever made. Toradora earns its reputation as the definitive tsundere romance not through clichés but through genuine character development: Taiga and Ryuji's friendship slowly becomes something deeper and more real as the series excavates the difficult family backgrounds and emotional defenses of both characters. The Christmas arc (episodes 16–19) is among the most emotionally powerful romantic storytelling in the genre.",
+      "trailer_url": "https://www.youtube.com/watch?v=XMbBfFU3mMg",
+      "trailer_id": "XMbBfFU3mMg",
+      "popularity": 84,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "First half is romantic comedy with character building. Second half escalates into earnest drama. The transition is beautifully handled. Ending is divisive but earned.",
+      "tags": [
+        "tsundere",
+        "school romance",
+        "comedy",
+        "christmas arc",
+        "feels"
+      ],
+      "similar_to": [
+        9,
+        29,
+        26,
+        21
+      ]
+    },
+    {
+      "id": 33,
+      "title": "March Comes in Like a Lion",
+      "title_jp": "3-gatsu no Lion",
+      "poster": "https://cdn.myanimelist.net/images/anime/6/82898l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/6/82898l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Drama",
+        "Slice of Life",
+        "Sports",
+        "Psychological"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing"
+      ],
+      "episodes": 44,
+      "year": 2016,
+      "status": "Completed",
+      "studio": "Shaft",
+      "synopsis": "Rei Kiriyama is 17, a professional shogi player ranked among Japan's best, living alone in a tiny apartment. He is also severely depressed, isolated, and struggling under the weight of a traumatic childhood in a family where his adoptive siblings resented his presence. His life is gently interrupted by the Kawamoto sisters — warm, chaotic, and full of life — who begin to draw him back into the world. March Comes in Like a Lion is one of anime's most compassionate and accurate portrayals of depression and the slow process of healing. Shaft's visually inventive direction — which frequently renders Rei's mental states as striking abstract imagery — elevates the source material into something singular. The shogi sequences are tense and beautifully animated. Season 2 tackles bullying with a seriousness and empathy that stands apart from anything else in anime.",
+      "trailer_url": "https://www.youtube.com/watch?v=XUU3hXqjlHo",
+      "trailer_id": "XUU3hXqjlHo",
+      "popularity": 75,
+      "hidden_gem": true,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "Intentionally quiet and introspective. Shogi matches punctuate longer character-driven sequences. Rewards viewers who sit with it — this is a show about healing, and healing takes time.",
+      "tags": [
+        "shogi",
+        "depression",
+        "healing",
+        "slice of life",
+        "shaft"
+      ],
+      "similar_to": [
+        18,
+        25,
+        26,
+        9
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Princess Mononoke",
+      "title_jp": "Mononoke-hime",
+      "poster": "https://cdn.myanimelist.net/images/anime/7/75919l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/7/75919l.jpg",
+      "rating": 8.7,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Drama"
+      ],
+      "mood": [
+        "intense",
+        "emotional"
+      ],
+      "episodes": 1,
+      "year": 1997,
+      "status": "Completed",
+      "studio": "Studio Ghibli",
+      "synopsis": "In Muromachi-era Japan, the young Emishi prince Ashitaka is cursed by a dying demon boar and must travel west to find a cure before the curse kills him. He arrives at Irontown — a prosperous mining settlement ruled by the formidable Lady Eboshi — just as it escalates its war against the forest gods. At the center of the conflict is San, a human girl raised by the wolf god Moro who sees herself entirely as a wolf and despises humanity. Princess Mononoke is Miyazaki's most morally complex film: it refuses to assign heroes and villains, presenting instead a tragic collision between human progress and natural preservation where everyone has legitimate reasons for fighting. The animation is breathtaking, the action sequences genuinely brutal, and the central question — can humans and nature coexist? — remains as urgent as ever. One of the greatest animated films ever made.",
+      "trailer_url": "https://www.youtube.com/watch?v=4OiMoP6k6R4",
+      "trailer_id": "4OiMoP6k6R4",
+      "popularity": 84,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "balanced",
+      "pacing_note": "A 134-minute film that earns every minute. Deliberately sets up the world's complexity before the conflict escalates. Miyazaki's direction ensures constant visual poetry alongside narrative momentum.",
+      "tags": [
+        "ghibli",
+        "nature vs industry",
+        "film",
+        "epic",
+        "miyazaki",
+        "moral ambiguity"
+      ],
+      "similar_to": [
+        13,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Nausicaä of the Valley of the Wind",
+      "title_jp": "Kaze no Tani no Naushika",
+      "poster": "https://cdn.myanimelist.net/images/anime/7/84539l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/7/84539l.jpg",
+      "rating": 8.4,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi",
+        "Drama"
+      ],
+      "mood": [
+        "emotional",
+        "relaxing",
+        "intense"
+      ],
+      "episodes": 1,
+      "year": 1984,
+      "status": "Completed",
+      "studio": "Studio Ghibli",
+      "synopsis": "One thousand years after the Seven Days of Fire devastated civilization, humanity clings to existence in the margins of the Sea of Corruption — a vast toxic jungle of mutant insects and spores that is slowly consuming the world. Princess Nausicaä of the small Valley of the Wind is a skilled glider pilot and gifted naturalist who has developed a secret understanding of the jungle's ecology. When a power struggle between two warring kingdoms ignites in the Valley, Nausicaä must navigate between armies, ancient weapons, and an apocalyptic secret to try to prevent history from repeating itself. Nausicaä is remarkable for predating virtually all of Miyazaki's more famous films — its ecological themes, its pacifist heroism, and its complex moral landscape already fully formed. The film that launched Studio Ghibli and established everything the studio would come to stand for.",
+      "trailer_url": "https://www.youtube.com/watch?v=Nz12V-b5C8s",
+      "trailer_id": "Nz12V-b5C8s",
+      "popularity": 78,
+      "hidden_gem": true,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Ambitious world-building compressed into 116 minutes. The original manga is vastly more detailed — the film is the essential highlight reel of its first two volumes.",
+      "tags": [
+        "ghibli",
+        "ecology",
+        "classic",
+        "film",
+        "miyazaki",
+        "pre-ghibli"
+      ],
+      "similar_to": [
+        13,
+        34,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Castle in the Sky",
+      "title_jp": "Tenkū no Shiro Rapyuta",
+      "poster": "https://cdn.myanimelist.net/images/anime/9/84540l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/9/84540l.jpg",
+      "rating": 8.5,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "mood": [
+        "relaxing",
+        "intense"
+      ],
+      "episodes": 1,
+      "year": 1986,
+      "status": "Completed",
+      "studio": "Studio Ghibli",
+      "synopsis": "A young boy named Pazu, working in a mining town, catches a girl who floats down from the sky — Sheeta, fleeing from both government agents and sky pirates. She carries a mysterious levitation crystal that is the key to finding Laputa, the legendary floating castle that once ruled the world. The chase across steampunk skies, through mining towns and military airships, combines thrilling adventure with Miyazaki's warm, humanistic touch. Castle in the Sky was Ghibli's first production and established the studio's aesthetic and thematic identity: the wonder of flight, the menace of militarism, the courage of young people, and the idea that the greatest treasure is not power but connection. It moves with the energy of a classic adventure serial and the visual imagination of pure cinema magic.",
+      "trailer_url": "https://www.youtube.com/watch?v=Bi44Fb6rlPk",
+      "trailer_id": "Bi44Fb6rlPk",
+      "popularity": 79,
+      "hidden_gem": true,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Breezy adventure pacing — rarely slows down. The chase structure keeps energy high from the opening scene to the climax. Miyazaki at his most purely entertaining.",
+      "tags": [
+        "ghibli",
+        "steampunk",
+        "adventure",
+        "film",
+        "flying",
+        "first ghibli"
+      ],
+      "similar_to": [
+        13,
+        34,
+        35,
+        37
+      ]
+    },
+    {
+      "id": 37,
+      "title": "My Neighbor Totoro",
+      "title_jp": "Tonari no Totoro",
+      "poster": "https://cdn.myanimelist.net/images/anime/4/75923l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/4/75923l.jpg",
+      "rating": 8.3,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Slice of Life",
+        "Drama"
+      ],
+      "mood": [
+        "relaxing",
+        "emotional"
+      ],
+      "episodes": 1,
+      "year": 1988,
+      "status": "Completed",
+      "studio": "Studio Ghibli",
+      "synopsis": "Satsuki and Mei move with their father to rural Japan to be closer to the hospital where their mother is recovering from illness. The countryside surrounding their old farmhouse is inhabited by spirits — tiny white dust creatures called susuwatari, and most magnificently, Totoro: an enormous, gentle forest spirit with a rumbling purr and a magnificent roar, who only children can see. My Neighbor Totoro is Miyazaki's most purely joyful work — a film with almost no antagonist, no conventional plot, just the honest texture of childhood: boredom and adventure and fear and wonder existing simultaneously. The scene of Totoro waiting with Satsuki at the rain-soaked bus stop has become one of cinema's most iconic images. It is perfect in its simplicity and endlessly rewatchable because it captures something true about being small in a large, magical world.",
+      "trailer_url": "https://www.youtube.com/watch?v=92a7Cp-H7F8",
+      "trailer_id": "92a7Cp-H7F8",
+      "popularity": 80,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "slow-burn",
+      "pacing_note": "No conventional plot tension — just the gentle rhythm of childhood days. Perfect for viewers who want to sink into a beautiful world rather than follow a driving narrative.",
+      "tags": [
+        "ghibli",
+        "childhood",
+        "wholesome",
+        "family film",
+        "spirits",
+        "iconic"
+      ],
+      "similar_to": [
+        13,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Gintama",
+      "title_jp": "Gintama",
+      "poster": "https://cdn.myanimelist.net/images/anime/10/73274l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/10/73274l.jpg",
+      "rating": 9.0,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Historical",
+        "Sci-Fi",
+        "Parody"
+      ],
+      "mood": [
+        "funny",
+        "intense",
+        "emotional"
+      ],
+      "episodes": 367,
+      "year": 2006,
+      "status": "Completed",
+      "studio": "Sunrise",
+      "synopsis": "In an alternate Edo period where aliens called Amanto have invaded Japan and banned samurai from carrying swords, former samurai Gintoki Sakata runs the Yorozuya — an odd-jobs business — with his apprentice Shinpachi and the alien girl Kagura. Gintama operates in two distinct modes: absurdist comedy that mercilessly parodies everything from other anime to Japanese culture to the show itself, and epic samurai action arcs that blindside you with genuine emotional devastation. The tonal whiplash is the entire point — Gintama earns its serious moments because it has made you love these characters across hundreds of comedic episodes. The Yoshiwara arc, the Shogun Assassination arc, and the Silver Soul arc are among the most emotionally powerful in all of anime. Often cited as the funniest anime ever made and simultaneously one of the most heartbreaking.",
+      "trailer_url": "https://www.youtube.com/watch?v=FIPr3MepMsM",
+      "trailer_id": "FIPr3MepMsM",
+      "popularity": 86,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "1-3",
+        "50-51",
+        "253-256"
+      ],
+      "filler_count": 7,
+      "pacing": "variable",
+      "pacing_note": "Comedy episodes are self-contained — skip freely. Serious arcs require sequential watching. The Silver Soul arc (final arc) is relentless and should not be interrupted. First 50 episodes are slow to get going but essential for loving the characters.",
+      "tags": [
+        "comedy",
+        "parody",
+        "samurai",
+        "long-running",
+        "tonal whiplash",
+        "best comedy"
+      ],
+      "similar_to": [
+        29,
+        21,
+        27,
+        17
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Chainsaw Man",
+      "title_jp": "Chensō Man",
+      "poster": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg",
+      "rating": 8.6,
+      "genres": [
+        "Action",
+        "Dark Fantasy",
+        "Horror",
+        "Comedy"
+      ],
+      "mood": [
+        "dark",
+        "intense"
+      ],
+      "episodes": 12,
+      "year": 2022,
+      "status": "Ongoing",
+      "studio": "MAPPA",
+      "synopsis": "Denji is a teenager drowning in debt, forced to hunt devils with his pet devil-dog Pochita to repay what his dead father owed. When he is betrayed and killed, Pochita merges with his heart — resurrecting him as the Chainsaw Man, a devil-human hybrid whose chainsaw blades emerge from his body. He is immediately recruited by the Public Safety Devil Hunters, specifically the mysterious and manipulative Makima. Chainsaw Man is deliberately deranged — a horror-action series that subverts expectations at every turn, kills characters with shocking casual brutality, and uses its extreme premise to explore themes of exploitation, desire, and what it means to live for someone else's idea of a dream. MAPPA's production is extraordinary: the fight choreography is cinematic, the OST hits differently with each episode's unique end theme, and the Katana Man arc delivers one of anime's most visually inventive action sequences.",
+      "trailer_url": "https://www.youtube.com/watch?v=q8DO3VQpvQs",
+      "trailer_id": "q8DO3VQpvQs",
+      "popularity": 90,
+      "hidden_gem": false,
+      "seasonal": true,
+      "trending": true,
+      "filler_episodes": [],
+      "filler_count": 0,
+      "pacing": "fast-paced",
+      "pacing_note": "Aggressively paced — major events happen within the first episode. No warm-up period. MAPPA's direction keeps visual and narrative energy at maximum throughout.",
+      "tags": [
+        "devils",
+        "gore",
+        "dark",
+        "action",
+        "mappa",
+        "unique ending themes"
+      ],
+      "similar_to": [
+        8,
+        4,
+        30,
+        1
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Sword Art Online",
+      "title_jp": "Sōdo Āto Onrain",
+      "poster": "https://cdn.myanimelist.net/images/anime/11/39717l.jpg",
+      "banner": "https://cdn.myanimelist.net/images/anime/11/39717l.jpg",
+      "rating": 7.2,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Romance"
+      ],
+      "mood": [
+        "intense",
+        "relaxing"
+      ],
+      "episodes": 25,
+      "year": 2012,
+      "status": "Completed",
+      "studio": "A-1 Pictures",
+      "synopsis": "On the release day of the full-dive VR game Sword Art Online, 10,000 players log in and discover they cannot log out. The game's creator announces the twisted truth: they are trapped until someone clears all 100 floors of Aincrad — and if they die in-game, they die in real life. Kirito, a skilled solo player known as a Beater, must navigate the most dangerous game ever made while also forming bonds — and eventually love — with fellow players. Sword Art Online is the isekai/game-world anime that popularized the genre for modern audiences. Its first arc (episodes 1–14) is genuinely compelling survival drama. Its later arcs sacrifice the survival premise for harem comedy and increasingly convoluted virtual reality plots, making it a polarizing series. Nevertheless, its influence on anime fandom and the visual imagination of its best episodes make it a significant cultural touchstone.",
+      "trailer_url": "https://www.youtube.com/watch?v=6ohYYtxfDCg",
+      "trailer_id": "6ohYYtxfDCg",
+      "popularity": 83,
+      "hidden_gem": false,
+      "seasonal": false,
+      "trending": false,
+      "filler_episodes": [
+        "15-24"
+      ],
+      "filler_count": 10,
+      "pacing": "variable",
+      "pacing_note": "Aincrad arc (eps 1–14) is fast-paced survival drama at its best. ALO arc (eps 15–24) drops significantly in quality and pacing. Gun Gale Online (SAO II) is a partial recovery.",
+      "tags": [
+        "isekai",
+        "game",
+        "virtual reality",
+        "survival",
+        "romance",
+        "pioneer"
+      ],
+      "similar_to": [
+        21,
+        29,
+        8,
+        22
+      ]
+    }
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mecha",
+    "Mystery",
+    "Psychological",
+    "Romance",
+    "Sci-Fi",
+    "Slice of Life",
+    "Supernatural",
+    "Sports",
+    "Thriller",
+    "Historical",
+    "Dark Fantasy",
+    "Parody",
+    "Philosophical"
+  ],
+  "moods": [
+    "dark",
+    "funny",
+    "emotional",
+    "relaxing",
+    "intense"
+  ],
+  "studios": [
+    "MAPPA",
+    "Madhouse",
+    "Bones",
+    "Wit Studio",
+    "Kyoto Animation",
+    "Studio Ghibli",
+    "A-1 Pictures",
+    "Pierrot",
+    "Toei Animation",
+    "Production I.G",
+    "ufotable",
+    "Sunrise",
+    "White Fox",
+    "J.C.Staff",
+    "Shaft",
+    "OLM"
+  ]
+}
