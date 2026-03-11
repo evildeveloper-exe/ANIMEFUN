@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Integration</title>
+</head>
+<body>
+    <h1>Anime Dataset Integration</h1>
+    <p>This file integrates the anime dataset with public APIs like MyAnimeList and AniList.</p>
+
+    <script>
+        // Example function to fetch data from MyAnimeList
+        async function fetchMyAnimeList() {
+            const response = await fetch('https://api.myanimelist.net/v2/anime', {
+                headers: {
+                    'X-MAL-CLIENT-ID': 'YOUR_CLIENT_ID' // replace with your MyAnimeList client ID
+                }
+            });
+            const data = await response.json();
+            console.log(data);
+        }
+
+        // Example function to fetch data from AniList
+        async function fetchAniList() {
+            const response = await fetch('https://graphql.anilist.co/', {
+                method: 'POST',
+                body: JSON.stringify({
+                    query: '{
+                        Page {
+                            media {
+                                id
+                                title {
+                                    romaji
+                                }
+                            }
+                        }
+                    }'
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const data = await response.json();
+            console.log(data);
+        }
+
+        // Fetch data on page load
+        window.onload = () => {
+            fetchMyAnimeList();
+            fetchAniList();
+        };
+    </script>
+</body>
+</html>
