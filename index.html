@@ -39,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
 }
 a { color: inherit; text-decoration: none }
 button { cursor: pointer; font-family: var(--sans) }
@@ -51,6 +52,121 @@ img { max-width: 100%; display: block }
 ::-webkit-scrollbar-thumb { background: var(--accent2); border-radius: 3px }
 
 /* ============================================================
+   LIGHT MODE
+   ============================================================ */
+body.light-mode {
+  --bg-primary:   #f0f0f8;
+  --bg-card:      #ffffff;
+  --bg-card2:     #e8e8f2;
+  --bg-overlay:   rgba(240,240,248,0.9);
+  --text:         #0e0e1a;
+  --text-muted:   #5a5a7a;
+  --border:       rgba(0,0,0,0.09);
+  --border-hover: rgba(0,0,0,0.18);
+}
+body.light-mode ::-webkit-scrollbar-track { background: var(--bg-primary) }
+body.light-mode .navbar {
+  background: rgba(240,240,248,0.88);
+  border-bottom-color: rgba(0,0,0,0.08);
+}
+body.light-mode .hero-bg {
+  background: linear-gradient(135deg, rgba(124,58,237,0.08) 0%, transparent 50%, rgba(232,67,147,0.06) 100%);
+}
+body.light-mode .hero-grid-bg {
+  background-image: linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+}
+body.light-mode .daily-banner {
+  background: linear-gradient(90deg, rgba(245,158,11,0.08), rgba(232,67,147,0.05));
+  border-color: rgba(245,158,11,0.15);
+}
+body.light-mode .search-input,
+body.light-mode .chatbot-input,
+body.light-mode .filter-group select,
+body.light-mode .search-filters select,
+body.light-mode .compare-select {
+  background: #ffffff;
+  color: var(--text);
+  border-color: rgba(0,0,0,0.12);
+}
+body.light-mode .chat-msg.bot .chat-bubble {
+  background: #e8e8f2;
+  border-color: rgba(0,0,0,0.08);
+}
+body.light-mode .chat-msg.user .chat-bubble {
+  background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(232,67,147,0.12));
+}
+body.light-mode .autocomplete-list {
+  background: #ffffff;
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+body.light-mode .autocomplete-item:hover { background: rgba(0,0,0,0.04) }
+body.light-mode .tracker-modal,
+body.light-mode .anime-modal,
+body.light-mode .compare-modal,
+body.light-mode .trailer-modal {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+}
+body.light-mode .mobile-menu {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+}
+body.light-mode .quiz-option {
+  background: var(--bg-card2);
+  border-color: rgba(0,0,0,0.1);
+  color: var(--text);
+}
+body.light-mode .quiz-option:hover {
+  border-color: var(--accent2);
+  background: rgba(124,58,237,0.08);
+}
+body.light-mode .tab-btn {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+}
+body.light-mode .quick-filters {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+}
+body.light-mode .watchlist-stats {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+}
+body.light-mode .tracker-info-section {
+  background: var(--bg-card2);
+  border-color: rgba(0,0,0,0.08);
+}
+body.light-mode .modal-detail-card {
+  background: var(--bg-card2);
+  border-color: rgba(0,0,0,0.08);
+}
+body.light-mode .toast {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.12);
+  color: var(--text);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+body.light-mode .fab {
+  background: var(--bg-card);
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+body.light-mode .compare-card {
+  background: var(--bg-card2);
+  border-color: rgba(0,0,0,0.08);
+}
+body.light-mode input[type="range"].tracker-slider {
+  background: rgba(0,0,0,0.08);
+}
+body.light-mode .progress-bar,
+body.light-mode .pacing-bar,
+body.light-mode .card-progress-bar {
+  background: rgba(0,0,0,0.08);
+}
+
+/* ============================================================
    NAVBAR
    ============================================================ */
 .navbar {
@@ -61,7 +177,7 @@ img { max-width: 100%; display: block }
   background: rgba(8,8,14,0.85);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, background 0.3s;
 }
 .navbar.scrolled { box-shadow: 0 4px 30px rgba(0,0,0,0.5) }
 .nav-logo {
@@ -87,6 +203,8 @@ img { max-width: 100%; display: block }
   transition: all 0.2s;
 }
 .theme-toggle:hover { border-color: var(--accent); transform: scale(1.1) }
+body.light-mode .theme-toggle { background: rgba(0,0,0,0.05) }
+body.light-mode .nav-link:hover { background: rgba(0,0,0,0.05) }
 .nav-menu-btn {
   display: none; width: 36px; height: 36px; border-radius: 8px;
   background: rgba(255,255,255,0.06); border: 1px solid var(--border);
@@ -132,6 +250,7 @@ img { max-width: 100%; display: block }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
   background: linear-gradient(135deg, rgba(124,58,237,0.15) 0%, transparent 50%, rgba(232,67,147,0.1) 100%);
+  transition: background 0.3s;
 }
 .hero-bg::before {
   content: ''; position: absolute; inset: 0;
@@ -144,6 +263,7 @@ img { max-width: 100%; display: block }
                     linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black, transparent);
+  transition: background-image 0.3s;
 }
 .hero-content {
   position: relative; z-index: 1;
@@ -187,6 +307,8 @@ img { max-width: 100%; display: block }
   transition: all 0.25s;
 }
 .btn-ghost:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.35) }
+body.light-mode .btn-ghost { border-color: rgba(0,0,0,0.2) }
+body.light-mode .btn-ghost:hover { background: rgba(0,0,0,0.05); border-color: rgba(0,0,0,0.35) }
 .hero-stats {
   display: flex; gap: 2.5rem; flex-wrap: wrap;
 }
@@ -291,6 +413,9 @@ img { max-width: 100%; display: block }
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
 }
+body.light-mode .anime-card:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
 .card-poster-wrap {
   position: relative; aspect-ratio: 2/3; overflow: hidden;
   background: var(--bg-card2);
@@ -356,7 +481,6 @@ img { max-width: 100%; display: block }
   background: rgba(124,58,237,0.15); border: 1px solid rgba(124,58,237,0.25);
   color: #a78bfa; font-size: 0.68rem; font-weight: 600;
 }
-/* Card progress bar */
 .card-progress-bar {
   height: 3px; background: rgba(255,255,255,0.08);
   border-radius: 2px; margin-top: 0.5rem; overflow: hidden;
@@ -484,6 +608,9 @@ img { max-width: 100%; display: block }
   padding: 1rem;
   animation: fadeIn 0.2s ease;
 }
+body.light-mode .tracker-overlay {
+  background: rgba(220,220,240,0.88);
+}
 @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
 .tracker-modal {
   background: var(--bg-card); border: 1px solid var(--border);
@@ -517,14 +644,15 @@ img { max-width: 100%; display: block }
   transition: all 0.2s;
 }
 .tracker-close:hover { background: var(--accent); border-color: var(--accent) }
+body.light-mode .tracker-close { background: rgba(0,0,0,0.05) }
 .tracker-body { padding: 1.5rem }
 
-/* Big progress ring */
 .tracker-ring-wrap {
   display: flex; flex-direction: column; align-items: center; margin-bottom: 1.5rem;
 }
 .tracker-ring-svg { transform: rotate(-90deg) }
 .tracker-ring-bg { fill: none; stroke: rgba(255,255,255,0.07); }
+body.light-mode .tracker-ring-bg { stroke: rgba(0,0,0,0.08) }
 .tracker-ring-fill {
   fill: none;
   stroke: url(#ringGrad);
@@ -538,7 +666,6 @@ img { max-width: 100%; display: block }
 .tracker-ring-pct { font-size: 22px; font-weight: 900 }
 .tracker-ring-label { font-size: 9px; fill: var(--text-muted); font-family: var(--sans) }
 
-/* Episode count control */
 .tracker-count-row {
   display: flex; align-items: center; justify-content: center; gap: 1rem;
   margin-bottom: 1.5rem;
@@ -558,7 +685,6 @@ img { max-width: 100%; display: block }
 .tracker-count-num { font-size: 2.2rem; font-weight: 800; line-height: 1 }
 .tracker-count-total { font-size: 0.8rem; color: var(--text-muted) }
 
-/* Episode slider */
 .tracker-slider-wrap { margin-bottom: 1.5rem }
 .tracker-slider-label {
   display: flex; justify-content: space-between;
@@ -580,8 +706,10 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   background: linear-gradient(90deg, var(--accent2) var(--fill-pct, 0%), rgba(255,255,255,0.08) var(--fill-pct, 0%));
   border-radius: 4px; height: 8px;
 }
+body.light-mode input[type="range"].tracker-slider::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, var(--accent2) var(--fill-pct, 0%), rgba(0,0,0,0.08) var(--fill-pct, 0%));
+}
 
-/* Status badges */
 .tracker-status-row {
   display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem;
 }
@@ -597,7 +725,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
 .tracker-status-btn.active-plan { background: rgba(124,58,237,0.15); border-color: rgba(124,58,237,0.4); color: #a78bfa }
 .tracker-status-btn.active-dropped { background: rgba(248,113,113,0.15); border-color: rgba(248,113,113,0.4); color: var(--red) }
 
-/* Filler + pacing section */
 .tracker-info-section {
   background: var(--bg-card2); border-radius: 12px;
   border: 1px solid var(--border); padding: 1rem; margin-bottom: 1rem;
@@ -636,7 +763,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
 }
 .pacing-note-text { font-size: 0.82rem; color: var(--text-muted); margin-top: 0.6rem; line-height: 1.5 }
 
-/* Completion celebration */
 .tracker-complete-banner {
   display: none; align-items: center; gap: 0.75rem;
   padding: 1rem; border-radius: 12px; margin-bottom: 1rem;
@@ -689,6 +815,7 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   color: var(--text-muted); font-size: 0.78rem; font-weight: 600;
   transition: all 0.2s;
 }
+body.light-mode .chat-clear-btn { background: rgba(0,0,0,0.04) }
 .chat-clear-btn:hover { border-color: var(--accent); color: var(--accent) }
 .chatbot-messages {
   flex: 1; overflow-y: auto; padding: 1.25rem;
@@ -756,6 +883,7 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   background: rgba(255,255,255,0.08); padding: 0.1rem 0.4rem;
   border-radius: 4px; font-family: monospace; font-size: 0.82em;
 }
+body.light-mode .chat-bubble code { background: rgba(0,0,0,0.07) }
 
 /* ============================================================
    ANIME DETAIL MODAL
@@ -766,6 +894,7 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   display: flex; align-items: flex-start; justify-content: center;
   padding: 2rem 1rem; overflow-y: auto;
 }
+body.light-mode .modal-overlay { background: rgba(200,200,220,0.75) }
 .anime-modal {
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: 20px; width: 100%; max-width: 860px;
@@ -798,6 +927,7 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   box-shadow: 0 8px 30px rgba(0,0,0,0.6);
   border: 2px solid rgba(255,255,255,0.1);
 }
+body.light-mode .modal-poster { box-shadow: 0 8px 30px rgba(0,0,0,0.15) }
 .modal-info { flex: 1; padding-top: 60px }
 .modal-title { font-family: var(--display); font-size: 1.5rem; margin-bottom: 0.25rem; line-height: 1.2 }
 .modal-jp { color: var(--text-muted); font-size: 0.88rem; margin-bottom: 0.75rem }
@@ -819,8 +949,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
   margin-bottom: 1.25rem;
 }
 .modal-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1.25rem }
-
-/* Modal pacing + filler info */
 .modal-details-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
   margin-bottom: 1.5rem;
@@ -845,8 +973,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
 }
 .similar-card:hover img { transform: scale(1.05) }
 .similar-card p { font-size: 0.72rem; margin-top: 0.4rem; color: var(--text-muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden }
-
-/* ── Tracker button in modal ── */
 .btn-tracker {
   padding: 0.65rem 1.25rem; border-radius: 50px;
   background: rgba(124,58,237,0.15); border: 1px solid rgba(124,58,237,0.35);
@@ -1265,7 +1391,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
       <button class="tracker-close" id="trackerClose">✕</button>
     </div>
     <div class="tracker-body">
-      <!-- Completion banner -->
       <div class="tracker-complete-banner" id="completeBanner">
         <span class="celeb-icon">🏆</span>
         <div>
@@ -1275,7 +1400,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         <button class="confetti-btn" onclick="launchConfetti()">🎉 Celebrate!</button>
       </div>
 
-      <!-- SVG Ring -->
       <div class="tracker-ring-wrap">
         <svg class="tracker-ring-svg" width="160" height="160" viewBox="0 0 160 160">
           <defs>
@@ -1298,7 +1422,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         </svg>
       </div>
 
-      <!-- Count control -->
       <div class="tracker-count-row">
         <button class="tracker-count-btn" id="countMinus">−</button>
         <div class="tracker-count-display">
@@ -1308,7 +1431,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         <button class="tracker-count-btn" id="countPlus">+</button>
       </div>
 
-      <!-- Slider -->
       <div class="tracker-slider-wrap">
         <div class="tracker-slider-label">
           <span>Episode 0</span>
@@ -1317,7 +1439,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         <input type="range" class="tracker-slider" id="episodeSlider" min="0" max="1" value="0"/>
       </div>
 
-      <!-- Watch status -->
       <div class="tracker-status-row">
         <button class="tracker-status-btn" data-status="watching">▶ Watching</button>
         <button class="tracker-status-btn" data-status="completed">✓ Completed</button>
@@ -1325,14 +1446,12 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         <button class="tracker-status-btn" data-status="dropped">✕ Dropped</button>
       </div>
 
-      <!-- Filler info -->
       <div class="tracker-info-section" id="trackerFillerSection">
         <h4>⚠ Filler Episodes</h4>
         <div class="filler-row" id="fillerRow"></div>
         <div class="filler-ranges" id="fillerRanges"></div>
       </div>
 
-      <!-- Pacing info -->
       <div class="tracker-info-section">
         <h4>⚡ Story Pacing</h4>
         <div class="pacing-bar-wrap">
@@ -1346,7 +1465,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
         </div>
         <p class="pacing-note-text" id="pacingNote">—</p>
       </div>
-
     </div>
   </div>
 </div>
@@ -1372,7 +1490,6 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
           </div>
         </div>
       </div>
-      <!-- Pacing + Filler cards -->
       <div class="modal-details-grid" id="modalDetailsGrid"></div>
       <div class="modal-similar">
         <h3>You might also like</h3>
@@ -1416,12 +1533,9 @@ input[type="range"].tracker-slider::-webkit-slider-runnable-track {
 'use strict';
 // ============================================================
 // API CONFIGURATION
-// Auto-detects Railway backend URL vs local dev
-// Set RAILWAY_URL below after you deploy to Railway
 // ============================================================
 const RAILWAY_URL = 'https://animefun-production.up.railway.app';
 const API_BASE = RAILWAY_URL || (window.location.hostname === 'localhost' ? 'http://localhost:8080' : '');
-
 
 // ============================================================
 // STATE
@@ -1430,7 +1544,6 @@ const State = {
   animeData: [],
   watchlist: JSON.parse(localStorage.getItem('as_watchlist') || '[]'),
   progress:  JSON.parse(localStorage.getItem('as_progress')  || '{}'),
-  // { animeId: { watched: N, status: 'watching'|'completed'|'plan'|'dropped' } }
   currentSection: 'home',
   currentAnime: null,
   currentTracker: null,
@@ -1448,7 +1561,7 @@ const CHAT_SESSION = 'as_' + Math.random().toString(36).slice(2, 10);
 document.addEventListener('DOMContentLoaded', async () => {
   await loadData();
   setupNav();
-  setupTheme();
+  setupTheme();   // ← fixed function below
   renderHome();
   renderDiscover();
   renderWatchlist();
@@ -1469,7 +1582,6 @@ async function loadData() {
     State.animeData = d.anime || d;
     populateFilterOptions();
   } catch(e) {
-    // Inline fallback — minimal dataset
     State.animeData = [];
     showToast('Could not load anime data from server', 'error');
   }
@@ -1496,7 +1608,6 @@ function setupNav() {
     el.addEventListener('click', e => {
       e.preventDefault();
       showSection(el.dataset.section);
-      // close mobile menu
       document.getElementById('mobileMenu').classList.remove('open');
     });
   });
@@ -1523,11 +1634,26 @@ function setupScrollEffect() {
 }
 
 // ============================================================
-// THEME
+// THEME TOGGLE  ← FIXED
 // ============================================================
 function setupTheme() {
   const btn = document.getElementById('themeToggle');
-  btn.textContent = '🌙';
+
+  // Restore saved preference
+  const saved = localStorage.getItem('as_theme');
+  if (saved === 'light') {
+    document.body.classList.add('light-mode');
+    btn.textContent = '☀️';
+  } else {
+    btn.textContent = '🌙';
+  }
+
+  // Click handler
+  btn.addEventListener('click', () => {
+    const isLight = document.body.classList.toggle('light-mode');
+    btn.textContent = isLight ? '☀️' : '🌙';
+    localStorage.setItem('as_theme', isLight ? 'light' : 'dark');
+  });
 }
 
 // ============================================================
@@ -1639,7 +1765,6 @@ function renderGrid(containerId, list, compact = false) {
 // DISCOVER
 // ============================================================
 function setupFilters() {
-  // Tab buttons
   document.querySelectorAll('#section-discover .tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('#section-discover .tab-btn').forEach(b => b.classList.remove('active'));
@@ -1691,8 +1816,8 @@ function renderDiscover() {
 // SEARCH
 // ============================================================
 function setupSearch() {
-  const input = document.getElementById('searchInput');
-  const btn   = document.getElementById('searchBtn');
+  const input  = document.getElementById('searchInput');
+  const btn    = document.getElementById('searchBtn');
   const acList = document.getElementById('autocompleteList');
 
   const doSearch = () => {
@@ -1824,7 +1949,6 @@ function submitQuiz() {
   else if (ans.length === 'short')  list = list.filter(a => a.episodes >= 2 && a.episodes <= 25);
   else if (ans.length === 'medium') list = list.filter(a => a.episodes >= 26 && a.episodes <= 75);
   else if (ans.length === 'long')   list = list.filter(a => a.episodes >= 76);
-  // Score remaining
   list = list.map(a => {
     let score = a.rating * 10;
     if (ans.character === 'underdog' && a.tags?.some(t => t.includes('underdog'))) score += 20;
@@ -1892,7 +2016,6 @@ function openTracker(id) {
   const prog = State.progress[id] || { watched: 0, status: 'plan' };
   if (!State.progress[id]) State.progress[id] = prog;
 
-  // Header
   document.getElementById('trackerTitle').textContent = anime.title;
   document.getElementById('trackerSubtitle').textContent = `${anime.episodes === 1 ? 'Film' : anime.episodes + ' episodes'} · ${anime.year} · ${anime.studio}`;
 
@@ -1903,26 +2026,21 @@ function openTracker(id) {
   posterImg.onerror = () => { posterImg.classList.add('hidden');    posterFb.classList.remove('hidden'); };
   posterImg.classList.remove('hidden');
 
-  // Slider
   const slider = document.getElementById('episodeSlider');
   slider.max   = anime.episodes;
   slider.value = prog.watched;
   document.getElementById('sliderMax').textContent = 'Ep ' + anime.episodes;
 
-  // Update all UI
   updateTrackerUI(prog.watched, anime.episodes);
 
-  // Status
   document.querySelectorAll('.tracker-status-btn').forEach(btn => {
     btn.classList.remove('active-watching','active-completed','active-plan','active-dropped');
     if (btn.dataset.status === prog.status) btn.classList.add('active-' + prog.status);
   });
 
-  // Filler
   renderFillerInfo(anime);
   renderPacingInfo(anime);
 
-  // Events
   slider.oninput = () => {
     const v = parseInt(slider.value);
     updateTrackerUI(v, anime.episodes);
@@ -1956,24 +2074,20 @@ function openTracker(id) {
 
 function updateTrackerUI(watched, total) {
   const pct  = total > 0 ? Math.round(watched / total * 100) : 0;
-  const circ = 2 * Math.PI * 68; // r=68
+  const circ = 2 * Math.PI * 68;
 
-  // Ring
   document.getElementById('ringFill').style.strokeDashoffset = circ - (circ * pct / 100);
   document.getElementById('ringPct').textContent   = pct + '%';
   document.getElementById('ringLabel').textContent = watched + ' / ' + total;
 
-  // Count
   document.getElementById('countNum').textContent   = watched;
   document.getElementById('countTotal').textContent = '/ ' + total + ' episodes';
 
-  // Slider fill
   const slider = document.getElementById('episodeSlider');
   slider.value = watched;
   const fillPct = total > 0 ? (watched / total * 100) : 0;
   slider.style.setProperty('--fill-pct', fillPct + '%');
 
-  // Completion banner
   const banner = document.getElementById('completeBanner');
   if (watched >= total && total > 0) {
     banner.classList.add('show');
@@ -1983,7 +2097,6 @@ function updateTrackerUI(watched, total) {
       `🌟 Series complete! You're a true anime fan!`
     ];
     document.getElementById('completeMsg').textContent = msgs[watched % msgs.length];
-    // auto-update status to completed
     const id = State.currentTracker?.id;
     if (id && State.progress[id]?.status !== 'completed') {
       State.progress[id].status = 'completed';
@@ -1999,7 +2112,6 @@ function saveProgress(id, watched) {
   if (!State.progress[id]) State.progress[id] = {};
   State.progress[id].watched = watched;
   localStorage.setItem('as_progress', JSON.stringify(State.progress));
-  // Refresh any visible grids
   ['discoverGrid','watchlistGrid','rowTrending','rowTopRated','rowHidden','searchGrid'].forEach(gridId => {
     const el = document.getElementById(gridId);
     if (!el || !el.querySelector('.anime-card')) return;
@@ -2020,7 +2132,6 @@ function saveProgress(id, watched) {
 }
 
 function renderFillerInfo(anime) {
-  const section = document.getElementById('trackerFillerSection');
   const row     = document.getElementById('fillerRow');
   const ranges  = document.getElementById('fillerRanges');
   const filler  = anime.filler_count || 0;
@@ -2044,16 +2155,15 @@ function renderFillerInfo(anime) {
 function renderPacingInfo(anime) {
   const pacing = anime.pacing || 'balanced';
   const pacingMap = {
-    'fast-paced': { label: 'Fast-Paced', pct: 90, color: '#e84393' },
-    'balanced':   { label: 'Balanced',   pct: 55, color: '#06b6d4' },
-    'slow-burn':  { label: 'Slow Burn',  pct: 25, color: '#7c3aed' },
-    'variable':   { label: 'Variable',   pct: 60, color: '#f59e0b' },
+    'fast-paced': { label: 'Fast-Paced', pct: 90 },
+    'balanced':   { label: 'Balanced',   pct: 55 },
+    'slow-burn':  { label: 'Slow Burn',  pct: 25 },
+    'variable':   { label: 'Variable',   pct: 60 },
   };
   const info = pacingMap[pacing] || pacingMap['balanced'];
   document.getElementById('pacingLabel').textContent = info.label;
   document.getElementById('pacingSpeed').textContent = pacing === 'fast-paced' ? '⚡ High Speed' : pacing === 'slow-burn' ? '🕯 Takes its time' : pacing === 'variable' ? '〜 Varies by arc' : '⚖ Well-paced';
   document.getElementById('pacingFill').style.width = info.pct + '%';
-  document.getElementById('pacingFill').style.background = `linear-gradient(90deg, ${info.color}88, ${info.color})`;
   document.getElementById('pacingNote').textContent = anime.pacing_note || '';
 }
 
@@ -2129,13 +2239,11 @@ function openAnimeModal(id) {
   State.currentAnime = anime;
   const inWL = State.watchlist.includes(id);
 
-  // Poster with fallback
   const poster = document.getElementById('modalPoster');
   poster.src = anime.poster;
   poster.alt = anime.title;
   poster.onerror = () => { poster.src = `https://placehold.co/140x210/12121c/7c3aed?text=${encodeURIComponent(anime.title.slice(0,12))}`; };
 
-  // Banner
   document.getElementById('modalBanner').innerHTML = `<img src="${anime.poster}" alt="" style="width:100%;height:100%;object-fit:cover;opacity:0.4;filter:blur(4px) saturate(1.5)"/>`;
 
   document.getElementById('modalTitle').textContent = anime.title;
@@ -2160,7 +2268,6 @@ function openAnimeModal(id) {
     ...( anime.tags || []).slice(0,4).map(t => `<span class="genre-tag" style="background:rgba(6,182,212,0.1);color:#67e8f9;border-color:rgba(6,182,212,0.25)">${t}</span>`),
   ].join('');
 
-  // Pacing + Filler detail cards
   const pacingMap = { 'fast-paced':'⚡ Fast-Paced', 'balanced':'⚖ Balanced', 'slow-burn':'🕯 Slow Burn', 'variable':'〜 Variable' };
   const fillerCls = (anime.filler_count || 0) === 0 ? 'filler-none' : (anime.filler_count || 0) < 20 ? 'filler-low' : 'filler-high';
   const fillerTxt = (anime.filler_count || 0) === 0 ? '✓ Zero filler' : `${anime.filler_count} filler episodes`;
@@ -2186,7 +2293,6 @@ function openAnimeModal(id) {
   document.getElementById('modalTrackerBtn').onclick = () => { closeAnimeModal(); openTracker(id); };
   document.getElementById('modalTrailerBtn').onclick = () => openTrailer(id);
 
-  // Similar
   const similars = (anime.similar_to || []).slice(0, 6)
     .map(sid => State.animeData.find(a => a.id === sid)).filter(Boolean);
   document.getElementById('modalSimilarGrid').innerHTML = similars.map(s => `
@@ -2209,13 +2315,12 @@ function closeAnimeModal() {
 }
 
 // ============================================================
-// TRAILER MODAL  — uses trailer_id field (no regex needed)
+// TRAILER MODAL
 // ============================================================
 function openTrailer(id) {
   const anime = State.animeData.find(a => a.id === id);
   if (!anime) return;
 
-  // Try trailer_id first (direct, no regex), fallback to parsing trailer_url
   let videoId = anime.trailer_id;
   if (!videoId && anime.trailer_url) {
     const m = anime.trailer_url.match(/(?:v=|youtu\.be\/)([a-zA-Z0-9_-]{10,11})/);
